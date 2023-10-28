@@ -114,7 +114,7 @@ margin-top: 60px;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #000000;
     height: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
@@ -136,8 +136,8 @@ margin-top: 60px;
     top: 100%;
     left: 0;
     right: 0;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     padding-top: 30px;
     padding-bottom: 50px;
     /* display: none; */
@@ -154,7 +154,7 @@ margin-top: 60px;
     background-position: center;
     background-repeat: no-repeat;
     /* background-color: transparent; */
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
     border-radius: 0;
     outline: none;
@@ -165,7 +165,7 @@ margin-top: 60px;
 .icon-item {
 height: 4px;
 width: 44px;
-background-color: black;
+background-color: #ffffff;
 border-radius: 25px;
 margin-bottom: 5px;
 margin-top: 5px;
