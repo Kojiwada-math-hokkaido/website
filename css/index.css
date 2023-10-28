@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.first-view {
+    height: calc(100vh - 110px);
+    background-image: url(../images/index/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4d2c14;
+}
+
+.first-view-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.first-view-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.lead {
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.lead p {
+    line-height: 2;
+    text-align: center;
+}
+
+.link-button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-button {
+    background-color: #f4dd64;
+    display: inline-block;
+    min-width: 180px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.link-button:hover {
+    background-color: #d8b500;
+}
+
+/* NEWS */
+.news {
+    background-color: #c1c1c14d;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.news h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+		margin-bottom: 50px;
+}
+
+.news dl{
+    width: 800px;
+}
+
+.news dt{
+    border-bottom:1px solid #ccc;
+    float:left;
+    padding:10px 5px;
+}
+
+.news dd{
+    border-bottom:1px solid #ccc;
+    margin-left:100px;
+    padding:10px 5px;
+}
+
+.news a{
+    background-color:rgb(41, 145, 44);
+    border-radius:5px;
+    color:#fff;
+    margin:0 20px;
+    padding:5px 15px;
+    text-decoration:none;
+    }
+
+.footer-tel {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 38px;
+	}
+
+
+@media (max-width: 700px) {
+    .first-view {
+        height: calc(100vh - 50px);
+        background-image: url(../images/index/background.jpg);
+        align-items: flex-start;
+    }
+
+    .first-view-text {
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+
+    .first-view-text h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .first-view-text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .lead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lead p {
+        text-align: left;
+    }
+
+    .item-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .item-list li {
+        width: 220px;
+        margin-left: 30px;
+    }
+}

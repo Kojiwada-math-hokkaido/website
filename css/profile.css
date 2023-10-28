@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+.title a{
+    height: 310px;
+    background-image: url(../images/profile/profile.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+/* 1項目目 */
+.unit-modal_main {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.unit-modal_main h2 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 75px;
+}
+
+.unit-modal_main h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.unit-modal_inner {
+    display: flex;
+    margin-top: 32px;
+    width: 50%;
+}
+
+.unit-modal_main dl {
+    display: flex;
+    width: 490px;
+    max-width: 80%;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    flex: 0 0 auto;
+}
+
+.unit-modal_main dl  p {
+    margin-top: 5px;
+}
+
+.unit-modal_main dt {
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: .18em;
+    width: 130px;
+}
+
+.unit-modal__main dd {
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: .08em;
+    line-height: 1.8;
+}
+
+.unit-modal_inner img {
+    width: 50%;
+    height: 50%;
+    margin-top: 35px;
+}
+
+/* 2項目目 */
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.feature img {
+    width: 360px;
+}
+
+.feature-text {
+    max-width: 500;
+    margin-right: 40px;
+}
+
+.feature .feature-text ul {
+    margin-top: 30px;
+    list-style: disc;
+}
+
+.feature .feature-text li {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .feature-text {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.feature-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.feature-text h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.feature-text_inner {
+    margin-top: 35px;
+}
+.feature-text p {
+    font-size: 15px;
+    line-height: 28px;
+    /*margin-top: 10px;*/
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+    /* 1項目目 */
+    .unit-modal_inner {
+        display: block;
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .feature-list dl {
+        display: block;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .feature-list dd {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    .feature-list dt {
+        width: 110px;
+    }
+
+    .unit-modal_inner img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    /* 2項目目 */
+    .feature {
+        display: block;
+        width: 800px;
+        margin-top: 45px;
+    }
+
+    .feature-text {
+        margin-right: 0;
+    }
+
+    .reverse .feature-text {
+        margin-left: 0;
+    }
+
+    .feature img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .movie {
+        width: 500px;
+        padding: 30px 25px;
+    }
+
+    .movie iframe {
+        height: 240px;
+    }
+}
