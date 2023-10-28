@@ -200,9 +200,12 @@ margin-left: 0px;
 .footer-logo {
     margin-top: 60px;
 }
+
 .footer-tel {
-    font-size: 20px;
+    font-size: 10px;
+    margin-top: 40px;
 }
+
 .copyright {
     margin-top: 50px;
 }

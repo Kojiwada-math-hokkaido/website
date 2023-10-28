@@ -40,7 +40,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 30px;
-    margin-top: 75px;
+    margin-top: 175px;
 }
 
 .unit-modal_main h2::after {
@@ -60,7 +60,7 @@
 
 .unit-modal_main dl {
     display: flex;
-    width: 490px;
+    width: 600px;
     max-width: 80%;
     margin-top: 12px;
     margin-left: auto;
@@ -93,68 +93,20 @@
     margin-top: 35px;
 }
 
-/* 2項目目 */
-.feature {
-    display: flex;
-    justify-content: space-between;
-    width: 930px;
-    max-width: 90%;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: flex-start;
-}
-
-.feature img {
-    width: 360px;
-}
-
-.feature-text {
-    max-width: 500;
-    margin-right: 40px;
-}
-
-.feature .feature-text ul {
-    margin-top: 30px;
-    list-style: disc;
-}
-
-.feature .feature-text li {
-    font-size: 16px;
-    margin-top: 15px;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.reverse .feature-text {
-    margin-left: 40px;
-    margin-right: 0;
-}
-
-.feature-text h2 {
+.unit-modal_main h3 {
     font-size: 22px;
     font-weight: bold;
     line-height: 30px;
+    margin-top: 25px;
 }
 
-.feature-text h2::after {
+.unit-modal_main h3::after {
     content: '';
     display: block;
     width: 36px;
     height: 3px;
     background-color: #000000;
     margin-top: 20px;
-}
-
-.feature-text_inner {
-    margin-top: 35px;
-}
-.feature-text p {
-    font-size: 15px;
-    line-height: 28px;
-    /*margin-top: 10px;*/
 }
 
 .footer {
