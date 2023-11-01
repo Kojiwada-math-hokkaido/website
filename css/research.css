@@ -59,52 +59,10 @@
     margin-left: 50px;
 }
 
-.item-list {
-    width: 930;
-    max-width: 90%;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 240px);
-    column-gap: 95px;
-    row-gap: 70px;
-    justify-content: center;
+.last_update {
+    text-align: right;
+    margin-top: 30px;
 }
-
-.item-list dl {
-    margin-top: 20px;
-}
-
-.item-list dt {
-    font-weight: bold;
-}
-
-.item-list dd {
-    font-size: 13px;
-    line-height: 20px;
-    margin-top: 10px;
-}
-
-.item-list .cost {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-.item-list li {
-    position: relative;
-}
-
-.item-list .item-label {
-    position: absolute;
-    top: 0;
-    left: calc(100% + 18px);
-    font-size: 10px;
-    white-space: nowrap;
-    transform-origin: top left;
-    transform: rotate(90deg);
-}
-
 
 .footer {
     margin-top: 100px;
