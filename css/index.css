@@ -98,22 +98,22 @@
 
 .news dd{
     border-bottom:1px solid #ccc;
-    margin-left:100px;
+    margin-left:110px;
     padding:10px 5px;
 }
 
 .news a{
-    background-color:rgb(41, 145, 44);
-    border-radius:5px;
-    color:#fff;
-    margin:0 20px;
-    padding:5px 15px;
-    text-decoration:none;
+    /* background-color:rgb(41, 145, 44); */
+    /* border-radius:5px; */
+    /* color:#fff; */
+    /* margin:0 20px; */
+    /* padding:5px 15px; */
+	text-decoration: underline;
     }
 
 .scroll{
 			display: flex;
-			height: 450px;
+			height: 470px;
 			width: 930px;
 			max-width: 90%;
 			margin-left: auto;

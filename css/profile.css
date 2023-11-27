@@ -113,6 +113,10 @@
     width: 1000px;
 }
 
+.feature-list a {
+    text-decoration: underline;
+}
+
 .footer {
     margin-top: 100px;
 }
