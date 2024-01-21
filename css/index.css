@@ -36,6 +36,7 @@
 .lead {
     max-width: 1200px;
     margin: 60px auto;
+    text-align: center;
 }
 
 .lead p {
@@ -113,7 +114,7 @@
 
 .scroll{
 			display: flex;
-			height: 470px;
+			height: 580px;
 			width: 930px;
 			max-width: 90%;
 			margin-left: auto;
