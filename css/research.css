@@ -89,6 +89,15 @@
     font-size: 20px;
 }
 
+.reference {
+    margin-top: 10px;
+}
+
+.reference_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .last_update {
     text-align: right;
     margin-top: 30px;
