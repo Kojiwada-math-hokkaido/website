@@ -40,24 +40,53 @@
 }
 
 .research_contents h3 {
+    font-size: 24px;
     margin-top: 20px;
     margin-left: 0px;
 }
 
-.IIT p {
+.article p {
     line-height: 165%;
     margin-top: 15px;
+}
 
+.equation {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .axiom_list {
-    max-width: 75%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     line-height: 200%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
+}
+
+.theorem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.article_image {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.caption {
+    margin-top: 20px;
+}
+
+.theorem_title {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .last_update {
@@ -77,5 +106,10 @@
 
     .research_contents h2 {
         font-size: 25px;
+    }
+
+    .article_image {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
