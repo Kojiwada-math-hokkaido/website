@@ -30,6 +30,10 @@ img {
 max-width: 100%
 }
 
+.header {
+    z-index: 1000;
+}
+
 .header-inner {
 max-width: 1200px;
 height: 110px;
