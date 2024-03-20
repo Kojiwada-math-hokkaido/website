@@ -55,13 +55,13 @@
 .unit-modal_inner {
     display: flex;
     margin-top: 32px;
-    width: 50%;
+    width: 100%;
 }
 
 .unit-modal_main dl {
     display: flex;
     width: 600px;
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -109,12 +109,12 @@
     margin-top: 20px;
 }
 
-.academic dl {
-    width: 1000px;
-}
-
 .feature-list a {
     text-decoration: underline;
+}
+
+.academic dl {
+    width: 1000px;
 }
 
 .footer {
