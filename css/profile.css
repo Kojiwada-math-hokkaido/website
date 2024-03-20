@@ -117,6 +117,26 @@
     width: 1000px;
 }
 
+.github {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../images/profile/github.png);
+}
+
+.instagram {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../images/profile/instagram.png);
+}
+
 .footer {
     margin-top: 100px;
 }
@@ -144,6 +164,7 @@
 
     .feature-list dt {
         width: 110px;
+        margin-bottom: 20px;
     }
 
     .unit-modal_inner img {
@@ -171,14 +192,5 @@
         width: 100%;
         height: auto;
         margin-top: 25px;
-    }
-
-    .movie {
-        width: 500px;
-        padding: 30px 25px;
-    }
-
-    .movie iframe {
-        height: 240px;
     }
 }

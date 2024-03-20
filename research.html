@@ -35,10 +35,10 @@
 
 			<div class="research_contents">
 				<div class="article">
-					<h2>Globally coupled mapの情報理論的アプローチ</h2>
+					<h2>大自由度力学系に対する情報理論的アプローチ</h2>
 					<h3>Globally coupled map</h3>
 					<p>
-						大自由度力学系の一つとして Globally coupled map (GCM) と呼ばれる離散力学系に注目している．
+						大自由度力学系の一つとして Globally coupled map (GCM) と呼ばれる離散力学系が存在する．
 						いま，カオス的な結合系を考えたいために写像 \(f\) をカオスを引き起こす代表的な写像であるロジスティック写像を用いる：
 					</p>
 					<div class="equation">
@@ -55,6 +55,13 @@
 							f(x) = 1 - ax^2.
 						\)
 					</div>
+					<div class="equation">
+						\(
+							0 \leq \varepsilon \leq 1,
+							\quad
+							0 \leq a \leq 2.
+						\)
+					</div>
 					これは，\(y_n(i) = f(x_n(i))\) として変形すると
 					<div class="equation">
 						\(
@@ -68,7 +75,7 @@
 						このような意味で GCM は様々な分野において重要な方程式系となっている．
 					</p>
 					<p>
-						また， GCM の重要な点はクラスター構造によってアトラクターを分類できる点である．
+						また， GCM はパラメータを変化させることによって異なるクラスターの数を持つアトラクターが現れるという特徴を持っている．
 						GCM のアトラクターは主に以下の 4 種類に分類できる：
 					</p>
 					<div class="axiom_list">
@@ -80,112 +87,128 @@
 						</ul>
 					</div>
 					<p>
-						Coherent phase はすべての要素が同期している場合であり，
-						そのアトラクターの安定性はロジスティック写像 \(f(x)\) のみによって完全に支配される．
-						つまり，\(\lambda_0\) を \(f(x)\) に対するリアプノフ指数であると仮定するとアトラクターの安定条件は
+						これらのアトラクターに対する安定性は要素間の拡大率を考慮することで議論できる．
 					</p>
 					<div class="equation">
 						\(
-							\lambda_0 + \log(1 - \varepsilon) < 0
+							\begin{align*}
+								|x_{n+1}(i) - x_{n+1}(j)|
+								&=	\left|(1 - \varepsilon)(x_{n}(i) - x_{n}(j))\right|\\
+								&\simeq (1 - \varepsilon)|f'(x_n(i))|\cdot|x_{n}(i) - x_{n}(j)|
+							\end{align*}
 						\)
 					</div>
+					より，
+					<div class="equation">
+						\(
+							\begin{align*}
+								\lambda(i)
+								&= \lim_{T \to \infty}\frac{1}{T}\log\left|\prod_{n=1}^T(1 - \varepsilon)f'(x_n(i))\right|\\
+								&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|.
+							\end{align*}
+						\)
+					</div>
+					この \( \lambda(i) \) によって安定性を判定できる．
+					<h3>Coherent phase</h3>
 					<p>
-						であることが分かる．
-					</p>
-					<p>
-						その他については，アトラクターの中にいくつのクラスターが発生するかによって分類される．
-						いま，結合系の振る舞いが \(k\) 個のクラスターに分かれ，それぞれ \(N_i \ (i=1,2,\cdots,k)\) 個の要素を持っているとする．
-						このとき，\(X_n^\nu\) を \(\nu\) 番目のクラスターに属する \(x_n\) の値であるとすると結合系は
+						Coherent phase はすべての要素が同期している相のことをいう．
+						安定条件は
 					</p>
 					<div class="equation">
 						\(
-							\begin{gather*}
-								X_{n+1}^\nu = (1 - \varepsilon)f(X_n^\nu) + \sum^k_{\mu= 1}\varepsilon_\mu f(X_n^\mu),
-								\quad
-								\nu = 1, 2, \cdots, k,
-							\end{gather*}
+							\lambda(i) + \log(1 - \varepsilon) + \lambda_0 < 0.
 						\)
 					</div>
 					<p>
-						として表される．ここで \( \varepsilon_\mu = \varepsilon N_\mu/N \) としている．
-						また，以下の命題が成立する．
+						ここで\(\lambda_0\) は \(f(x)\) に対するリアプノフ指数としている．
+						<br>
+						以下に Coherent phase の場合に現れる時系列の例を示す．
 					</p>
-					<div class="theorem">
-						<div class="theorem_title">
-							命題
+					<div class="article_image">
+						<img src="images/research/coherent.png" alt="Image">
+						<div class="caption">
+							図１： Coherent phase の場合の時系列の例
 						</div>
-						<p>
-							\( k\) 個のクラスターによるアトラクターに対して正のリアプノフ指数の数は \( k \) を超えることはない．
-						</p>
+					</div>
+					<h3>Ordered phase</h3>
+					<p>
+						Ordered phase とは，要素数 \( N \) に対してクラスター数が十分小さいアトラクターを持つ相のことをいう．
+						安定条件は
+					</p>
+					<div class="equation">
+						\(
+							\begin{align*}
+								\lambda(i)
+								&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
+								< 0
+							\end{align*}
+						\)
 					</div>
 					<p>
-						すなわち安定性を解析するにはこの \( k \)-結合系について考えればよい．
+						である．
+						<br>
+						以下に Ordered phase の場合に現れる時系列の例を示す．
+					</p>
+					<div class="article_image">
+						<img src="images/research/ordered.png" alt="Image">
+						<div class="caption">
+							図２： Ordered phase の場合の時系列の例
+						</div>
+					</div>
+					<h3>Partially ordered phase</h3>
+					<p>
+						Partially ordered phase とは，初期条件によりクラスターの個数が異なる様々なアトラクターが共存する相のことをいう．
+						<br>
+						安定条件は Ordered phase の場合と同様である．
 					</p>
 					<p>
-						GCM のアトラクターは
+						以下に Partially ordered phase の場合に現れる時系列の例を示す．
 					</p>
-					<div class="axiom_list">
-						<ul>
-							<li type="1">ランダムに初期値（\(M\)個）を取る．</li>
-							<li type="1">\( k \)-クラスターアトラクターに収束する初期条件の数を数え，それを\( M \)で割る．</li>
-						</ul>
+					<div class="article_image">
+						<img src="images/research/partially.png" alt="Image">
+						<div class="caption">
+							図３： Ordered phase の場合の時系列の例１
+						</div>
+					</div>
+					<div class="article_image">
+						<img src="images/research/partially-2.png" alt="Image">
+						<div class="caption">
+							図４： Ordered phase の場合の時系列の例２
+						</div>
+					</div>
+					<h3>Turbulent phase</h3>
+					<p>
+						Turbulent phase とは，全ての要素が非同期であるときの相のことをいう．
+						安定条件は
+					</p>
+					<div class="equation">
+						\(
+							\begin{align*}
+								\lambda(i)
+								&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
+								> 0
+							\end{align*}
+						\)
 					</div>
 					<p>
-						により定義されるクラスター分布関数\( Q(k) \)によって分類される．
+						である．
+						<br>
+						以下に Turbulent phase の場合に現れる時系列の例を示す．
 					</p>
-					<p>
-						数値的な条件は以下のようになる：
-					</p>
-					<div class="axiom_list">
-						<ul>
-							<li type="1">Coherent phase</li>
-							<div class="equation">
-								\(
-									Q(1) = 1.
-								\)
-							</div>
-							<li type="1">Ordered phase</li>
-							<div class="equation">
-								\(
-									\sum_{k > N/2}Q(k) = 0,
-									\quad
-									Q(1) \neq 1.
-								\)
-							</div>
-							<li type="1">Partially ordered phase</li>
-							<div class="equation">
-								\(
-									\sum_{k > N/2}Q(k) > 0,
-									\quad
-									\sum_{k < N/2}Q(k) > 0.
-								\)
-							</div>
-							<li type="1">Turbulent phase</li>
-							<div class="equation">
-								\(
-									\sum_{k > N/2}Q(k) = 1.
-								\)
-							</div>
-						</ul>
+					<div class="article_image">
+						<img src="images/research/turbulent.png" alt="Image">
+						<div class="caption">
+							図５： Turbulent phase の場合の時系列の例
+						</div>
 					</div>
+
 					<p>
-						アトラクターの定量的な評価は平均クラスター数 \(R = \sum^N_{k=1}kQ(k)\) によってすることができる：
-					</p>
-					<div class="axiom_list">
-						<ul>
-							<li type="1">Coherent phase : \(R = 1\).</li>
-							<li type="1">Ordered phase : \(R \ll N\).</li>
-							<li type="1">Partially ordered phase : \(R < N\).</li>
-							<li type="1">Turbulent phase : \(R = N\).</li>
-						</ul>
-					</div>
-					<p>
-						この方法による分類を相図にすると以下のようになる：
+						数値的にクラスター数を計算し相図にすると以下のようになる：
 					</p>
 					<div class="article_image">
 						<img src="images/research/diagram.png" alt="Image">
 						<div class="caption">
-							図： GCM の相図
+							図８： 数値計算による GCM の相図
 						</div>
 					</div>
 					<!-- <h3>The novel complexity</h3> -->
@@ -205,7 +228,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="last_update">[最終更新 : 2024/02/25]</div>
+					<div class="last_update">[最終更新 : 2024/03/20]</div>
 				</div>
 			</div>
 
