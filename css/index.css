@@ -114,7 +114,8 @@
 
 .scroll{
     display: flex;
-    height: 580px;
+    /* 活動履歴の範囲 */
+    height: 630px;
     width: 930px;
     max-width: 90%;
     margin-left: auto;
