@@ -25,7 +25,33 @@
     <meta name="google-site-verification" content="j7VU_NmZw-AdLhS_PUzFXFEbykO6bJmoNEhD7FbmdEQ" />
   </head>
   <body>
-    <div id="header"></div>
+    <!-- <div id="header"></div> -->
+    <header class="header">
+      <div class="header-inner">
+        <a class="header-logo" href="index.html">
+          <img src="./images/common/logo-header.png" alt="KojiWada">
+        </a>
+        <button class="toggle-menu-button">
+          <div class="button">
+            <div class="icon-wrapper">
+              <div class="icon-item line1"></div>
+              <div class="icon-item line2"></div>
+              <div class="icon-item line3"></div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="./js/hamburger.js" defer></script>
+          </div>
+        </button>
+        <div class="header-site-menu">
+          <nav  class="site-menu">
+            <ul>
+              <li><a href="research.html">RESEARCH</a></li>
+              <li><a href="profile.html">PROFILE</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
     <main class="main">
       <div class="first-view">
@@ -93,6 +119,18 @@
 
     </main>
 
-    <div id="footer"></div>
+    <!-- <div id="footer"></div> -->
+    <footer class="footer">
+      <nav class="site-menu">
+        <ul>
+          <li><a href="research.html">RESEARCH</a></li>
+          <li><a href="profile.html">PROFILE</a></li>
+        </ul>
+      </nav>
+      <a class="footer-logo" href="index.html">
+        <img src="./images/common/logo-header.png" alt="KojiWada">
+      </a>
+      <p class="footer-tel">E-mail: wada.koji.n4@elms.hokudai.ac.jp</p>
+    </footer>
   </body>
 </html>
