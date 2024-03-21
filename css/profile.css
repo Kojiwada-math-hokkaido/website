@@ -37,7 +37,7 @@
 }
 
 .unit-modal_main h2 {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 30px;
     margin-top: 175px;
@@ -111,6 +111,10 @@
 
 .feature-list a {
     text-decoration: underline;
+}
+
+.academic {
+    margin-bottom: 100px;
 }
 
 .academic dl {
