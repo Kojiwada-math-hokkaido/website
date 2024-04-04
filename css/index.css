@@ -1,13 +1,28 @@
 @charset "utf-8";
-
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/78251.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    position: relative; /* 相対位置指定 */
     display: flex;
     align-items: center;
+}
+
+.image-container {
+    position: fixed; /* 画像を固定する */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.all-background {
+    background-image: url(../images/index/paint_00026.jpg);
 }
 
 .first-view-text {
@@ -35,7 +50,8 @@
 
 .lead {
     max-width: 1200px;
-    margin: 60px auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -86,13 +102,8 @@
 }
 
 .news a{
-    /* background-color:rgb(41, 145, 44); */
-    /* border-radius:5px; */
-    /* color:#fff; */
-    /* margin:0 20px; */
-    /* padding:5px 15px; */
 	text-decoration: underline;
-    }
+}
 
 .scroll{
     display: flex;
@@ -131,9 +142,10 @@
 .map {
 	width: 930px;
 	max-width: 90%;
-	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 100px;
 }
 
 .map iframe {
@@ -141,7 +153,6 @@
 	width: 100%;
 	height: 320px;
 	margin-top: 25px;
-	margin-bottom: 100px;
 }
 
 

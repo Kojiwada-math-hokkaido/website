@@ -32,6 +32,8 @@ max-width: 100%
 
 .header {
     z-index: 1000;
+    background-color: #000000;
+    background-image: url(../images/index/paint_00026.jpg);
 }
 
 .header-inner {
@@ -72,6 +74,7 @@ font-weight: bold;
 .footer {
 color: #ffffff;
 background-color: #000000;
+background-image: url(../images/index/paint_00026.jpg);
 padding-top: 30px;
 padding-bottom: 80px;
 display: flex;
