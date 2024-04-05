@@ -135,7 +135,6 @@ margin-top: 60px;
 
 .header-logo {
     width: 130px;
-    z-index: 20;
 }
 
 .header-site-menu {
@@ -145,18 +144,17 @@ margin-top: 60px;
     right: 0;
     color: #ffffff;
     background-color: #000000;
+    background-image: url(../images/index/paint_00026.jpg);
     padding-top: 30px;
     padding-bottom: 50px;
     /* display: none; */
     margin-top: -330px;
-    z-index: 10;
 }
 
 .toggle-menu-button {
     display: block;
     width: 44px;
     height: 33px;
-    /* background-image: url(../images/common/icon-menu.png); */
     background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +163,6 @@ margin-top: 60px;
     border: none;
     border-radius: 0;
     outline: none;
-    z-index: 20;
 }
 
 /* hamburger menu */
@@ -178,6 +175,7 @@ margin-bottom: 5px;
 margin-top: 5px;
 transition: all 0.5s ease;
 }
+
 .icon-wrapper {
 position: absolute;
 cursor: pointer;
