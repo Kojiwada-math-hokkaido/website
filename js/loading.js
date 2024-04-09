@@ -1,16 +1,3 @@
-// $(function () {
-//   function end_loader() {
-//     $('.loader').fadeOut(800);
-//     document.getElementById("content").style.display = "block"; // コンテンツを表示
-//   }
-//   $(window).on('load', function () {
-//     setTimeout(function () {
-//       end_loader();
-//     }, 2900)
-//   })
-// })
-
-
 $(function () {
   // ローダー終了
   function end_loader() {
