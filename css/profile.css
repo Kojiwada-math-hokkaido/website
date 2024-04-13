@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+.main {
+    background-image: url(../images/index/black_00014.jpg);
+    padding-bottom: 120px;
+}
 .title a{
     height: 310px;
     background-image: url(../images/profile/profile02.jpg);
@@ -41,6 +44,7 @@
     font-weight: bold;
     line-height: 30px;
     margin-top: 175px;
+    padding-bottom: 10px;
 }
 
 .unit-modal_main h2::after {
@@ -48,7 +52,7 @@
     display: block;
     width: 36px;
     height: 3px;
-    background-color: #000000;
+    background-color: #ffffff;
     margin-top: 20px;
 }
 
@@ -98,6 +102,7 @@
     font-weight: bold;
     line-height: 30px;
     margin-top: 25px;
+    padding-bottom: 10px;
 }
 
 .unit-modal_main h3::after {
@@ -105,8 +110,8 @@
     display: block;
     width: 36px;
     height: 3px;
-    background-color: #000000;
-    margin-top: 20px;
+    background-color: #ffffff;
+    margin-top: 10px;
 }
 
 .feature-list a {
@@ -168,12 +173,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
     background-image: url(../images/profile/clock-image.png);
-}
-
-.footer {
-    margin-top: 100px;
 }
 
 @media (max-width: 700px) {
