@@ -162,6 +162,16 @@
     background-image: url(../images/profile/qiita.png);
 }
 
+.clock_app {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(../images/profile/clock-image.png);
+}
+
 .footer {
     margin-top: 100px;
 }
