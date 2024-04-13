@@ -30,6 +30,24 @@ img {
 max-width: 100%
 }
 
+/* Loading... */
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #97CAD3;
+    z-index: 555;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader .txt {
+    display: none;
+}
+
 .header {
     z-index: 1000;
     background-color: #000000;

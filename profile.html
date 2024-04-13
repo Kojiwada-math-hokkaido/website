@@ -24,91 +24,97 @@
   </head>
 
   <body>
-    <div id="header"></div>
-
-    <main class="main">
-      <div class="title">
-        <a>
-          <h1>PROFILE</h1>
-          <p>プロフィール</p>
-        </a>
-      </div>
-      <div class="unit-modal_main">
-        <h2>和田 康司 (Koji Wada)</h2>
-        <div class="unit-modal_inner">
-          <div class="feature-list">
-            <dl><dt>学位</dt><dd>準学士（工学）
-              <p>学士　（理学）</p>
-            </dd></dl>
-            <dl><dt>所属</dt><dd><a href="https://www2.sci.hokudai.ac.jp/dept/math/" target="_blank">北海道大学大学院理学院数学専攻</a>
-              <p><a href="https://www.chain.hokudai.ac.jp/" target="_blank">人間知・脳・AI研究教育センター (CHAIN)</a></p>
-              <p><a href="https://www.instagram.com/hokudai946/" target="_blank">北大釧路会</a></p>
-              <p><a href="https://www.tottorijinja.com/blog" target="_blank">釧路鳥取傘踊り保存会</a></p>
-            </dd></dl>
-            <dl><dt>学年</dt><dd>修士課程2年</dd></dl>
-            <dl><dt>専門分野</dt><dd>数学</dd></dl>
-            <dl><dt>キーワード</dt><dd>カオス時系列解析, フラクタル, 大自由度力学系, 統合情報理論</dd></dl>
-            <dl><dt>趣味</dt><dd>伝統芸能, 野球観戦, ベンチプレス</dd></dl>
-            <dl><dt>連絡先</dt><dd>wada.koji.n4@elms.hokudai.ac.jp</dd></dl>
-          </div>
-        </div>
-      </div>
-
-    <div class="unit-modal_main">
-      <h2>CAREER</h2>
-      <h3>Academic background</h3>
-      <div class="academic">
-        <dl>2016年4月～2017年3月 : 釧路工業高等専門学校 創造工学科</dl>
-        <dl>2017年4月～2021年3月 : 釧路工業高等専門学校 創造工学科 エレクトロニクスコース 電子工学分野</dl>
-        <dl>2016年4月～2021年3月 : 釧路工業高等専門学校 教育支援センター 特進数学</dl>
-        <dl>2021年4月～2023年3月 : 北海道大学理学部数学科</dl>
-        <dl>2023年4月～ : 北海道大学大学院理学院数学専攻</dl>
-        <dl>2023年4月～ : 人間知・脳・AI研究教育センター 教育プログラム 4期生</dl>
-      </div>
-
-      <h3>Education History</h3>
-      <div class="academic">
-        <dl>2023年4月～2023年7月 : 天使大学 看護学科 情報処理演習 (TA)</dl>
-        <dl>2023年7月～2024年1月 : 行木研究室 てんかん脳波の非線形時系列解析におけるモデル化と発作予測 (RA)</dl>
-        <dl>2023年9月～2023年12月 : 天使大学 看護学科 データの科学 (TA)</dl>
-        <dl>2023年10月～2024年1月 : 北海道大学 理学部数学科 コンピュータ (TA)</dl>
-        <dl>2024年4月～現在 : 天使大学 看護学科 情報処理演習 (TA)</dl>
-        <dl>2024年4月～現在 : 北海道大学 情報学Ⅰ (TA)</dl>
-      </div>
-
-      <h3>Lecture</h3>
-      <div class="academic">
-        <dl>2022年12月9日 : 釧路高専 大学編入学説明会</dl>
-      </div>
-
-      <h3>Assistant</h3>
-      <div class="academic">
-        <dl>2024年4月～現在 : 第21回数学総合若手研究集会（開催予定）世話人</dl>
-      </div>
-
-      <h3>SNS</h3>
-      <div class="sns-list">
-        <a href="https://github.com/Kojiwada-math-hokkaido" target="_blank">
-          <div class="github"></div>
-        </a>
-        <a href="https://www.instagram.com/kojikoji_math?igsh=eGxhMHQwOHl1ejd5" target="_blank">
-          <div class="instagram"></div>
-        </a>
-        <a href="https://x.com/yasusi_54?t=_QF_-RBMAaM7v_YbEa5uOA&s=06" target="_blank">
-          <div class="twitter"></div>
-        </a>
-        <a href="https://qiita.com/kojiwada" target="_blank">
-          <div class="qiita"></div>
-        </a>
-      </div>
-
-      <h3>公開アプリ</h3>
-      <a href="https://kojiwada-math-hokkaido.github.io/clock_app/" target="_blank">
-        <div class="clock_app"></div>
-      </a>
+    <div class="loader"> <!-- 読み込み中の表示 -->
+      <img src="./images/index/Loading.gif" class="txt">
     </div>
-  </main>
+    <div id="content" style="display: none">
+      <div id="header"></div>
 
-    <div id="footer"></div>
+      <main class="main">
+        <div class="title">
+          <a>
+            <h1>PROFILE</h1>
+            <p>プロフィール</p>
+          </a>
+        </div>
+        <div class="unit-modal_main">
+          <h2>和田 康司 (Koji Wada)</h2>
+          <div class="unit-modal_inner">
+            <div class="feature-list">
+              <dl><dt>学位</dt><dd>準学士（工学）
+                <p>学士　（理学）</p>
+              </dd></dl>
+              <dl><dt>所属</dt><dd><a href="https://www2.sci.hokudai.ac.jp/dept/math/" target="_blank">北海道大学大学院理学院数学専攻</a>
+                <p><a href="https://www.chain.hokudai.ac.jp/" target="_blank">人間知・脳・AI研究教育センター (CHAIN)</a></p>
+                <p><a href="https://www.instagram.com/hokudai946/" target="_blank">北大釧路会</a></p>
+                <p><a href="https://www.tottorijinja.com/blog" target="_blank">釧路鳥取傘踊り保存会</a></p>
+              </dd></dl>
+              <dl><dt>学年</dt><dd>修士課程2年</dd></dl>
+              <dl><dt>専門分野</dt><dd>数学</dd></dl>
+              <dl><dt>キーワード</dt><dd>カオス時系列解析, フラクタル, 大自由度力学系, 統合情報理論</dd></dl>
+              <dl><dt>趣味</dt><dd>伝統芸能, 野球観戦, ベンチプレス</dd></dl>
+              <dl><dt>連絡先</dt><dd>wada.koji.n4@elms.hokudai.ac.jp</dd></dl>
+            </div>
+          </div>
+      </div>
+
+      <div class="unit-modal_main">
+        <h2>CAREER</h2>
+        <h3>Academic background</h3>
+        <div class="academic">
+          <dl>2016年4月～2017年3月 : 釧路工業高等専門学校 創造工学科</dl>
+          <dl>2017年4月～2021年3月 : 釧路工業高等専門学校 創造工学科 エレクトロニクスコース 電子工学分野</dl>
+          <dl>2016年4月～2021年3月 : 釧路工業高等専門学校 教育支援センター 特進数学</dl>
+          <dl>2021年4月～2023年3月 : 北海道大学理学部数学科</dl>
+          <dl>2023年4月～ : 北海道大学大学院理学院数学専攻</dl>
+          <dl>2023年4月～ : 人間知・脳・AI研究教育センター 教育プログラム 4期生</dl>
+        </div>
+
+        <h3>Education History</h3>
+        <div class="academic">
+          <dl>2023年4月～2023年7月 : 天使大学 看護学科 情報処理演習 (TA)</dl>
+          <dl>2023年7月～2024年1月 : 行木研究室 てんかん脳波の非線形時系列解析におけるモデル化と発作予測 (RA)</dl>
+          <dl>2023年9月～2023年12月 : 天使大学 看護学科 データの科学 (TA)</dl>
+          <dl>2023年10月～2024年1月 : 北海道大学 理学部数学科 コンピュータ (TA)</dl>
+          <dl>2024年4月～現在 : 天使大学 看護学科 情報処理演習 (TA)</dl>
+          <dl>2024年4月～現在 : 北海道大学 情報学Ⅰ (TA)</dl>
+        </div>
+
+        <h3>Lecture</h3>
+        <div class="academic">
+          <dl>2022年12月9日 : 釧路高専 大学編入学説明会</dl>
+        </div>
+
+        <h3>Assistant</h3>
+        <div class="academic">
+          <dl>2024年4月～現在 : 第21回数学総合若手研究集会（開催予定）世話人</dl>
+        </div>
+
+        <h3>SNS</h3>
+        <div class="sns-list">
+          <a href="https://github.com/Kojiwada-math-hokkaido" target="_blank">
+            <div class="github"></div>
+          </a>
+          <a href="https://www.instagram.com/kojikoji_math?igsh=eGxhMHQwOHl1ejd5" target="_blank">
+            <div class="instagram"></div>
+          </a>
+          <a href="https://x.com/yasusi_54?t=_QF_-RBMAaM7v_YbEa5uOA&s=06" target="_blank">
+            <div class="twitter"></div>
+          </a>
+          <a href="https://qiita.com/kojiwada" target="_blank">
+            <div class="qiita"></div>
+          </a>
+        </div>
+
+        <h3>公開アプリ</h3>
+        <a href="https://kojiwada-math-hokkaido.github.io/clock_app/">
+          <div class="clock_app"></div>
+        </a>
+      </div>
+      </main>
+
+      <div id="footer"></div>
+    </div>
+    <script src="js/loading.js"></script>
   </body>
 </html>
