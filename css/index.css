@@ -22,7 +22,8 @@
 }
 
 .all-background {
-    background-image: url(../images/index/black_00014.jpg);
+    background-color: #97CAD3;
+    /* background-image: url(../images/index/black_00014.jpg); */
 }
 
 .first-view-text {
