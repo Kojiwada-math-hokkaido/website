@@ -22,7 +22,7 @@
 }
 
 .all-background {
-    background-color: #97CAD3;
+    background-color: #000000;
     /* background-image: url(../images/index/black_00014.jpg); */
 }
 
@@ -50,7 +50,7 @@
 }
 
 .lead {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;

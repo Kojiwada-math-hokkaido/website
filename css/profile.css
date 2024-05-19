@@ -1,7 +1,7 @@
 @charset "utf-8";
 .main {
-    color: #5C5C5C;
-    background-color: #97CAD3;
+    color: #ffffff;
+    background-color: #000000;
     padding-bottom: 120px;
 }
 .title a{
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    text-shadow: 1px 1px 10px #D6553D;
+    text-shadow: 1px 1px 10px green;
 }
 
 .title h1 {

@@ -2,7 +2,7 @@
 
 .main {
     /* background-image: url(../images/index/black_00014.jpg); */
-    background-color: #97CAD3;
+    background-color: #000000;
 }
 
 .title a{
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    text-shadow: 1px 1px 10px #D6553D;
+    text-shadow: 1px 1px 10px blue;
 }
 
 .title h1 {
@@ -36,7 +36,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
-    color: #5C5C5C;
+    color: #ffffff;
 }
 
 .research_contents h2 {
@@ -90,7 +90,7 @@
 
 .caption {
     margin-top: 20px;
-    text-align: center
+    text-align: left
 }
 
 .theorem_title {

@@ -23,225 +23,220 @@
 		<link rel="icon" type="image/x-icon" href="./images/common/favicon.ico">
 	</head>
 	<body>
-		<div class="loader"> <!-- 読み込み中の表示 -->
-      <img src="./images/index/Loading.gif" class="txt">
-    </div>
-		<div id="content" style="display: none;"> <!-- コンテンツは最初は非表示 -->
-			<div id="header"></div>
+	<div id="header"></div>
 
-			<main class="main">
-				<div class="title">
-					<a>
-						<h1>RESEARCH</h1>
-						<p>研究テーマ</p>
-					</a>
+	<main class="main">
+		<div class="title">
+			<a>
+				<h1>RESEARCH</h1>
+				<p>研究テーマ</p>
+			</a>
+		</div>
+
+		<div class="research_contents">
+			<div class="article">
+				<h2>大域結合写像に対する統合情報理論に基づいた複雑性の提案</h2>
+				<h3>大域結合写像 (Globally coupled map, GCM)</h3>
+				<p>
+					自然科学や社会科学において，脳，気象，生態系，経済をはじめとした
+					複数の要素が相互作用することで非線形現象が現れる複雑系と呼ばれるシステムへの理解が大きく注目されている．
+					特に，カオスネットワークのモデルとして大域結合写像が [Kaneko, 1989] によって提案された：
+				</p>
+				<div class="equation">
+					\(
+						\begin{gather*}
+							x_{n+1}(i) = (1 - \varepsilon)f(x_n(i)) + \frac{\varepsilon}{N}\sum_{j=1}^Nf(x_n(j)),
+							\quad
+							i = 1, 2, \cdots, N.
+						\end{gather*}
+					\)
 				</div>
-
-				<div class="research_contents">
-					<div class="article">
-						<h2>大自由度力学系に対する情報理論的アプローチによる複雑性の検討</h2>
-						<h3>Globally coupled map</h3>
-						<p>
-							大自由度力学系の一つとして Globally coupled map (GCM) と呼ばれる離散力学系が存在する．
-							いま，カオス的な結合系を考えたいために写像 \(f\) をカオスを引き起こす代表的な写像であるロジスティック写像を用いる：
-						</p>
-						<div class="equation">
-							\(
-								\begin{gather*}
-									x_{n+1}(i) = (1 - \varepsilon)f(x_n(i)) + \frac{\varepsilon}{N}\sum_{j=1}^Nf(x_n(j)),
-									\quad
-									i = 1, 2, \cdots, N,
-								\end{gather*}
-							\)
-						</div>
-						<div class="equation">
-							\(
-								f(x) = 1 - ax^2.
-							\)
-						</div>
-						<div class="equation">
-							\(
-								0 \leq \varepsilon \leq 1,
-								\quad
-								0 \leq a \leq 2.
-							\)
-						</div>
-						これは，\(y_n(i) = f(x_n(i))\) として変形すると
-						<div class="equation">
-							\(
-								\begin{gather*}
-									y_{n+1}(i) = f\left((1 - \varepsilon)y_n(i) + \frac{\varepsilon}{N}\sum_{j=1}^Ny_n(j)\right)
-								\end{gather*}
-							\)
-						</div>
-						<p>
-							となり，この形は \(f\) をシグモイド関数として選ぶことで神経科学などにおいて見慣れた形になる．
-							このような意味で GCM は様々な分野において重要な方程式系となっている．
-						</p>
-						<p>
-							また， GCM はパラメータを変化させることによって異なるクラスターの数を持つアトラクターが現れるという特徴を持っている．
-							GCM のアトラクターは主に以下の 4 種類に分類できる：
-						</p>
-						<div class="axiom_list">
-							<ul>
-								<li type="1">Coherent phase</li>
-								<li type="1">Ordered phase</li>
-								<li type="1">Partially ordered phase</li>
-								<li type="1">Turbulent phase</li>
-							</ul>
-						</div>
-						<p>
-							これらのアトラクターに対する安定性は要素間の拡大率を考慮することで議論できる．
-						</p>
-						<div class="equation">
-							\(
-								\begin{align*}
-									|x_{n+1}(i) - x_{n+1}(j)|
-									&=	\left|(1 - \varepsilon)(x_{n}(i) - x_{n}(j))\right|\\
-									&\simeq (1 - \varepsilon)|f'(x_n(i))|\cdot|x_{n}(i) - x_{n}(j)|
-								\end{align*}
-							\)
-						</div>
-						より，
-						<div class="equation">
-							\(
-								\begin{align*}
-									\lambda(i)
-									&= \lim_{T \to \infty}\frac{1}{T}\log\left|\prod_{n=1}^T(1 - \varepsilon)f'(x_n(i))\right|\\
-									&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|.
-								\end{align*}
-							\)
-						</div>
-						この \( \lambda(i) \) によって安定性を判定できる．
-						<h3>Coherent phase</h3>
-						<p>
-							Coherent phase はすべての要素が同期している相のことをいう．
-							安定条件は
-						</p>
-						<div class="equation">
-							\(
-								\lambda(i) + \log(1 - \varepsilon) + \lambda_0 < 0.
-							\)
-						</div>
-						<p>
-							ここで\(\lambda_0\) は \(f(x)\) に対するリアプノフ指数としている．
-							<br>
-							以下に Coherent phase の場合に現れる時系列の例を示す．
-						</p>
-						<div class="article_image">
-							<img src="images/research/coherent.png" alt="Image">
-							<div class="caption">
-								図１： Coherent phase の場合の時系列の例
-							</div>
-						</div>
-						<h3>Ordered phase</h3>
-						<p>
-							Ordered phase とは，要素数 \( N \) に対してクラスター数が十分小さいアトラクターを持つ相のことをいう．
-							安定条件は
-						</p>
-						<div class="equation">
-							\(
-								\begin{align*}
-									\lambda(i)
-									&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
-									< 0
-								\end{align*}
-							\)
-						</div>
-						<p>
-							である．
-							<br>
-							以下に Ordered phase の場合に現れる時系列の例を示す．
-						</p>
-						<div class="article_image">
-							<img src="images/research/ordered.png" alt="Image">
-							<div class="caption">
-								図２： Ordered phase の場合の時系列の例
-							</div>
-						</div>
-						<h3>Partially ordered phase</h3>
-						<p>
-							Partially ordered phase とは，初期条件によりクラスターの個数が異なる様々なアトラクターが共存する相のことをいう．
-							<br>
-							安定条件は Ordered phase の場合と同様である．
-						</p>
-						<p>
-							以下に Partially ordered phase の場合に現れる時系列の例を示す．
-						</p>
-						<div class="article_image">
-							<img src="images/research/partially.png" alt="Image">
-							<div class="caption">
-								図３： Ordered phase の場合の時系列の例１
-							</div>
-						</div>
-						<div class="article_image">
-							<img src="images/research/partially-2.png" alt="Image">
-							<div class="caption">
-								図４： Ordered phase の場合の時系列の例２
-							</div>
-						</div>
-						<h3>Turbulent phase</h3>
-						<p>
-							Turbulent phase とは，全ての要素が非同期であるときの相のことをいう．
-							安定条件は
-						</p>
-						<div class="equation">
-							\(
-								\begin{align*}
-									\lambda(i)
-									&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
-									> 0
-								\end{align*}
-							\)
-						</div>
-						<p>
-							である．
-							<br>
-							以下に Turbulent phase の場合に現れる時系列の例を示す．
-						</p>
-						<div class="article_image">
-							<img src="images/research/turbulent.png" alt="Image">
-							<div class="caption">
-								図５： Turbulent phase の場合の時系列の例
-							</div>
-						</div>
-
-						<p>
-							数値的にクラスター数を計算し相図にすると以下のようになる：
-						</p>
-						<div class="article_image">
-							<img src="images/research/named-diagram.png" alt="Image">
-							<div class="caption">
-								図６： 数値計算による GCM の相図
-							</div>
-						</div>
-
-						<div class="reference">
-							<div class="reference_title">参考文献</div>
-							<div class="axiom_list">
-								<ul>
-									<li type="1">
-										K. Kaneko,
-										"Clustering, coding, switching, hierarchical ordering, and control in a network of chaotic elements",
-										Physica D: Nonlinear Phenomena,
-										Volume 41, Issue 2,
-										1990,
-										Pages 137-172,
-										ISSN 0167-2789.
-									</li>
-									<li type="1">
-										金子 邦彦・津田 一郎, "複雑系のカオス的シナリオ", 複雑系双書 1, 1996, A5判/312ページ, ISBN : 978-4-254-10514-8 C3340.
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="last_update">[最終更新 : 2024/03/20]</div>
+				<div class="equation">
+					\(
+						f(x) = \alpha x (1- x),
+						\quad
+						0 \leq \alpha \leq 4.0,
+						\quad
+						0 \leq \varepsilon \leq 1.0.
+					\)
+				</div>
+				<p>
+					GCM は 1 次元写像であるロジスティック写像と異なり，
+					時間発展の末に力学系の軌道を引き付ける極限集合であるアトラクターが，
+					初期値に対して複数存在するカオス的遍歴と呼ばれる現象が確認されている．<br>
+					カオス的遍歴は，電子スピンを持った金属であるスピングラスや流体乱流においても類似の現象が確認され，
+					非線形結合系に対する普遍的現象であると考えられている．
+					そのため， GCM に現れる現象の理解を深めることは物理学や神経科学などへの応用という観点も含めて重要である．<br>
+					GCM の特徴は，非線形係数 \(\alpha\) と結合係数 \(\varepsilon\) によって
+					異なるクラスターの数を持つアトラクターが現れるという特徴を持っている．
+					GCM のアトラクターは主に以下の 4 種類に分類できる：
+				</p>
+				<div class="axiom_list">
+					<ul>
+						<li type="1">完全同期相 (Coherent phase)</li>
+						<li type="1">秩序相 (Ordered phase)</li>
+						<li type="1">部分秩序相 (Partially ordered phase)</li>
+						<li type="1">非同期相 (Turbulent phase)</li>
+					</ul>
+				</div>
+				<h3>完全同期相 (Coherent phase)</h3>
+				<p>
+					完全同期相は，すべての要素が同期している相のことをいう．<br>
+					ある要素 \(i\) に対する引き込みと分離の傾向は，以下の分離指数 \(\lambda_{spl}\) により表現される：
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							\lambda_{spl}(i)
+							&= \lim_{T \to \infty}\frac{1}{T}\log\left|\prod_{n=1}^T(1 - \varepsilon)f'(x_n(i))\right|\\
+							&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|.
+						\end{align*}
+					\)
+				</div>
+				<p>
+					これは，二つの要素間の距離に対する線形近似
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							|x_{n+1}(i) - x_{n+1}(j)|
+							&= \left|(1 - \varepsilon)(f(x_{n}(i)) - f(x_{n}(j)))\right|\\
+							&\simeq (1 - \varepsilon)|f'(x_n(i))|\cdot|x_{n}(i) - x_{n}(j)|\\
+							&\simeq \prod_{m=0}^n(1 - \varepsilon)|f'(x_m(i))|\cdot|x_{0}(i) - x_{0}(j)|
+						\end{align*}
+					\)
+				</div>
+				<p>
+					から得られる．<br>
+					完全同期相の場合は，任意の \(i, j\) に対して \( x(i) = x(j) \) となるため，
+					\(\lambda_0\) をロジスティック写像 \(f(x)\) に対するリアプノフ指数であると仮定すると，
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+						\lambda_{spl}(i)
+						&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|\\
+						&= \log(1 - \varepsilon) + \lambda_0 < 0.
+						\end{align*}
+					\)
+				</div>
+				<p>
+					以下に Coherent phase の場合に現れる時系列の例を示す．
+				</p>
+				<div class="article_image">
+					<img src="images/research/coherent.png" alt="Image">
+					<div class="caption">
+						図１： Coherent phase の場合の時系列の例．
+						100 個の要素の時系列を重ねてプロットしている．
+					</div>
+				</div>
+				<h3>秩序相 (Ordered phase)</h3>
+				<p>
+					秩序相は，要素数 \( N \) に対してクラスター数が十分小さいアトラクターを持つ相のことをいう．
+					安定条件は
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							\lambda_{spl}(i)
+							&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
+							< 0
+						\end{align*}
+					\)
+				</div>
+				<p>
+					である．
+					<br>
+					以下に秩序相の場合に現れる時系列の例を示す．
+				</p>
+				<div class="article_image">
+					<img src="images/research/ordered.png" alt="Image">
+					<div class="caption">
+						図２： 秩序相の場合の時系列の例．
+						全体が二つのクラスターに分割していることが分かる．
+					</div>
+				</div>
+				<h3>部分秩序相 (Partially ordered phase)</h3>
+				<p>
+					部分秩序相は，初期条件によりクラスターの個数が異なる様々なアトラクターが共存する相のことをいう．
+					<br>
+					安定条件は秩序相の場合と同様である．
+				</p>
+				<p>
+					以下に部分秩序相の場合に現れる時系列の例を示す．
+				</p>
+				<div class="article_image">
+					<img src="images/research/partially.png" alt="Image">
+					<div class="caption">
+						図３： 部分秩序相の場合の時系列の例１
+					</div>
+				</div>
+				<div class="article_image">
+					<img src="images/research/partially-2.png" alt="Image">
+					<div class="caption">
+						図４： 部分秩序相の場合の時系列の例２
+					</div>
+				</div>
+				<h3>非同期相 (Turbulent phase)</h3>
+				<p>
+					非同期相は，全ての要素が非同期であるときの相のことをいう．
+					安定条件は
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							\lambda(i)
+							&= \log(1 - \varepsilon) + \lim_{T \to \infty}\frac{1}{T}\sum_{n=1}^T\log|f'(x_n(i))|
+							> 0
+						\end{align*}
+					\)
+				</div>
+				<p>
+					である．
+					<br>
+					以下に非同期相の場合に現れる時系列の例を示す．
+				</p>
+				<div class="article_image">
+					<img src="images/research/turbulent.png" alt="Image">
+					<div class="caption">
+						図５： 非同期相の場合の時系列の例
 					</div>
 				</div>
 
-			</main>
-			<div id="footer"></div>
+				<p>
+					数値的にクラスター数を計算し相図にすると以下のようになる：
+				</p>
+				<div class="article_image">
+					<img src="images/research/named-diagram.png" alt="Image">
+					<div class="caption">
+						図６： 数値計算による GCM の相図
+					</div>
+				</div>
+
+				<div class="reference">
+					<div class="reference_title">参考文献</div>
+					<div class="axiom_list">
+						<ul>
+							<li type="1">
+								K. Kaneko,
+								"Clustering, coding, switching, hierarchical ordering, and control in a network of chaotic elements",
+								Physica D: Nonlinear Phenomena,
+								Volume 41, Issue 2,
+								1990,
+								Pages 137-172,
+								ISSN 0167-2789.
+							</li>
+							<li type="1">
+								金子 邦彦・津田 一郎, "複雑系のカオス的シナリオ", 複雑系双書 1, 1996, A5判/312ページ, ISBN : 978-4-254-10514-8 C3340.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="last_update">[最終更新 : 2024/05/19]</div>
+			</div>
 		</div>
-		<script src="js/loading.js"></script>
+
+	</main>
+	<div id="footer"></div>
 	</body>
 </html>

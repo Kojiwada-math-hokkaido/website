@@ -50,7 +50,7 @@ max-width: 100%
 
 .header {
     z-index: 1000;
-    background-color: #97CAD3;
+    background-color: #000000;
     /* background-image: url(../images/index/black_00014.jpg); */
 }
 
@@ -91,7 +91,7 @@ font-weight: bold;
 
 .footer {
 color: #ffffff;
-background-color: #97CAD3;
+background-color: #000000;
 /* background-image: url(../images/index/black_00014.jpg); */
 padding-top: 30px;
 padding-bottom: 80px;
