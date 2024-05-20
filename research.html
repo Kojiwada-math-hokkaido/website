@@ -121,12 +121,12 @@
 					\)
 				</div>
 				<p>
-					以下に Coherent phase の場合に現れる時系列の例を示す．
+					以下に完全同期相の場合に現れる時系列の例を示す．
 				</p>
 				<div class="article_image">
 					<img src="images/research/coherent.png" alt="Image">
 					<div class="caption">
-						図１： Coherent phase の場合の時系列の例．
+						図１： 完全同期相の場合の時系列の例．
 						100 個の要素の時系列を重ねてプロットしている．
 					</div>
 				</div>
@@ -145,8 +145,35 @@
 					\)
 				</div>
 				<p>
-					である．
-					<br>
+					である．<br>
+					アトラクターはクラスター数とクラスター内の要素数によって特徴づけることができる．
+					いま，アトラクター内にクラスターが \(k\) 個存在し，
+					\(N_j\) を \(j\) 番目のクラスター内にある要素数と仮定すると，
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							[k, (N_1, N_2, \cdots, N_k)]
+						\end{align*}
+					\)
+				</div>
+				<p>
+					としてアトラクターを表現することができる．
+					このとき, GCM は
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+							X_{n+1}^j = (1 - \varepsilon)f(X_n^j) + \sum^k_{j=1}\varepsilon_jf(X_n^j),
+							\quad
+							\varepsilon_j = \frac{N_j}{N}
+							\quad
+							j = 1, 2,\cdots, k.
+						\end{align*}
+					\)
+				</div>
+				<p>
+					となる．
 					以下に秩序相の場合に現れる時系列の例を示す．
 				</p>
 				<div class="article_image">
@@ -168,13 +195,50 @@
 				<div class="article_image">
 					<img src="images/research/partially.png" alt="Image">
 					<div class="caption">
-						図３： 部分秩序相の場合の時系列の例１
+						図３： 部分秩序相の場合の時系列の例１．
 					</div>
 				</div>
 				<div class="article_image">
 					<img src="images/research/partially-2.png" alt="Image">
 					<div class="caption">
-						図４： 部分秩序相の場合の時系列の例２
+						図４： 部分秩序相の場合の時系列の例２．
+					</div>
+				</div>
+				<p>
+					アトラクターはクラスター数とクラスター内の要素数によって特徴づけることができた．
+					しかし，アトラクターの性質はクラスターの枝分かれによってさらに分類することができる．<br>
+					そこで，以下の精度付きクラスターを導入する．
+					まず，精度 \(1 / P\) での要素 \(x_n(i)\) を判定する
+				</p>
+				<div class="equation">
+					\(
+						\begin{align*}
+						x_n^P(i) =  \frac{[P \times x_n(i)]}{P}.
+						\end{align*}
+					\)
+				</div>
+				<p>
+					を考える．
+					ここで \([\cdots]\) は \(\cdots\) の整数部分としている．
+					これにより，精度 \(1/ P\) でのクラスターを判定する．
+					各要素を有限精度で考えることにより，以下のような枝分かれの階層構造が現れていることを確認することができる．
+				</p>
+				<div class="article_image">
+					<img src="images/research/hieralclus.png" alt="Image">
+					<div class="caption">
+						図５： 階層的クラスター化の例．
+						それぞれの色は各要素を表している．
+						精度を高くすることで有限精度クラスター数が大きくなっていることが分かる．
+					</div>
+				</div>
+				<p>
+					また，部分秩序相では時刻によって有限精度クラスター数が大きく変化するカオス的遍歴と呼ばれる現象が確認される．
+				</p>
+				<div class="article_image">
+					<img src="images/research/effective.png" alt="Image">
+					<div class="caption">
+						図６： カオス的遍歴の例．
+						各時刻 (30ステップごと) における精度付きクラスター数の変化をプロットしている．
 					</div>
 				</div>
 				<h3>非同期相 (Turbulent phase)</h3>
@@ -199,7 +263,7 @@
 				<div class="article_image">
 					<img src="images/research/turbulent.png" alt="Image">
 					<div class="caption">
-						図５： 非同期相の場合の時系列の例
+						図７： 非同期相の場合の時系列の例
 					</div>
 				</div>
 
@@ -207,16 +271,52 @@
 					数値的にクラスター数を計算し相図にすると以下のようになる：
 				</p>
 				<div class="article_image">
-					<img src="images/research/named-diagram.png" alt="Image">
+					<img src="images/research/phase_diagram_pre.png" alt="Image">
 					<div class="caption">
-						図６： 数値計算による GCM の相図
+						図８： 数値計算による GCM の相図．
+						各パラメータでの 3000 ステップ目でのスラスター数を計算する．
+						これを, 10個の初期値に対する平均を取り, プロットしている.
 					</div>
 				</div>
+
+				<h3>GCM に対するエントロピー解析</h3>
+				<p>
+					軌道の振る舞いに関する複雑性をエントロピーによって解析する．
+					以下でのエントロピーは，情報理論におけるシャノン・エントロピーを考える．
+				</p>
+
 
 				<div class="reference">
 					<div class="reference_title">参考文献</div>
 					<div class="axiom_list">
 						<ul>
+							<li type="1">
+								K. Kaneko,
+								"Chaotic but regular posi-nega switch among coded attractors by cluster-size variation",
+								Phys. Rev. Lett.,
+								Volume 63, Issue 3,
+								1989,
+								Pages 219-223,
+								ISSN 0167-2789.
+							</li>
+							<li type="1">
+								K. Kaneko,
+								"Clustering, coding, switching, hierarchical ordering, and control in a network of chaotic elements",
+								Physica D: Nonlinear Phenomena,
+								Volume 41, Issue 2,
+								1990,
+								Pages 137-172,
+								ISSN 0167-2789.
+							</li>
+							<li type="1">
+								K. Kaneko,
+								"Information cascade with marginal stability in a network of chaotic elements",
+								Physica D: Nonlinear Phenomena,
+								Volume 77, Issue 4,
+								1994,
+								Pages 456-472,
+								ISSN 0167-2789.
+							</li>
 							<li type="1">
 								K. Kaneko,
 								"Clustering, coding, switching, hierarchical ordering, and control in a network of chaotic elements",
@@ -229,10 +329,43 @@
 							<li type="1">
 								金子 邦彦・津田 一郎, "複雑系のカオス的シナリオ", 複雑系双書 1, 1996, A5判/312ページ, ISBN : 978-4-254-10514-8 C3340.
 							</li>
+							<li type="1">
+								Tononi, G. An information integration theory of consciousness. BMC Neurosci 5, 42, 2004.
+							</li>
+							<li type="1">
+								M. Oizumi, S-i. Amari, T. Yanagawa, N. Fujii, N. Tsuchiya, (2016)
+								"Measuring Integrated Information from the Decoding Perspective",
+								PLoS Comput Biol 12(1): e1004654.
+							</li>
+							<li type="1">
+								H. Mori, M. Oizumi,
+								"Information integration in a globally coupled chaotic system",
+								The 2018 Conference on Artificial Life,
+								2018.
+							</li>
+							<li type="1">
+								Pedro A. M. Mediano, Fernando E. Rosas, Juan Carlos Farah, Murray Shanahan, Daniel Bor, Adam B. Barrett,
+								"Integrated information as a common signature of dynamical and information-processing complexity",
+								Chaos 1 January 2022; 32 (1): 013115.
+							</li>
+							<li type="1">
+								Song Y, Zhang J,
+								"Discriminating preictal and interictal brain states in intracranial EEG by sample entropy and extreme learning machine",
+								J Neurosci Methods. 2016 Jan 15;257:45-54.
+							</li>
+							<li type="1">
+								I. Tsuda,
+								"Chaotic itinerancy and its roles in cognitive neurodynamics",
+								Current Opinion in Neurobiology,
+								Volume 31,
+								2015,
+								Pages 67-71,
+								ISSN 0959-4388.
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="last_update">[最終更新 : 2024/05/19]</div>
+				<div class="last_update">[最終更新 : 2024/05/20]</div>
 			</div>
 		</div>
 

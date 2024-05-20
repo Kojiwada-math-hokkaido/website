@@ -58,8 +58,8 @@
 
 .equation {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     overflow: auto;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .reference {
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .reference_title {
