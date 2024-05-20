@@ -1,7 +1,7 @@
 # 更新情報
 <a href="URL" target="_blank">https://kojiwada-math-hokkaido.github.io/website/</a>	
 
-https://kojiwada-math-hokkaido.github.io/website/{:target="_blank"}
+[ここからサイトに飛べます](https://kojiwada-math-hokkaido.github.io/website/){:target="_blank"}
 
 ## 2024/04/27
 - 英文改行アプリを公開しました．
