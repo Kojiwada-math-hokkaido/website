@@ -1,4 +1,5 @@
 # 更新情報
+https://kojiwada-math-hokkaido.github.io/website/
 ## 2024/04/27
 - 英文改行アプリを公開しました．
   - Google 翻訳への遷移ボタン付き
