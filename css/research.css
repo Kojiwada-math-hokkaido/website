@@ -81,7 +81,7 @@
 }
 
 .article_image {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 25%;
     margin-right: 25%;
@@ -90,7 +90,8 @@
 
 .caption {
     margin-top: 20px;
-    text-align: left
+    text-align: left;
+    line-height: 22px;
 }
 
 .theorem_title {
