@@ -1,5 +1,7 @@
 # 更新情報
 <a href="https://kojiwada-math-hokkaido.github.io/website/" target="_blank">https://kojiwada-math-hokkaido.github.io/website/</a>	
+## 2026/02/14
+- 新しくしました
 ## 2024/06/07
 - 研究関連の質問とその回答に関するページを追加しました．
 - ローディング画面を一時停止しました．
