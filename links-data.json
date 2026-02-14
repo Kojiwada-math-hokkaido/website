@@ -1,5 +1,12 @@
 [
   {
+    "title": "researchmap",
+    "description": "研究活動について",
+    "url": "https://researchmap.jp/koji_wada",
+    "iconType": "image",
+    "icon": "./images/researchmap.png"
+  },
+  {
     "title": "Twitter",
     "description": "日々の活動など",
     "url": "https://x.com/kjmath_0821",
