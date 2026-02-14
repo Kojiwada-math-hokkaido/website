@@ -17,6 +17,60 @@
       "status": "upcoming",
 			"presentationType": "oral",
 			"url": "https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html"
+    },
+    {
+      "month": "3月",
+      "day": "2-4",
+      "title": "函数方程式論の新潮流–2026",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "",
+			"url": "https://www.math.sci.hokudai.ac.jp/~kosuke.kita/new_trends/"
+    },
+    {
+      "month": "2月",
+      "day": "16",
+      "title": "数理科学セミナー：細胞死の理論と自律性",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14187"
+    },
+    {
+      "month": "2月",
+      "day": "16",
+      "title": "OCAMI 共同研究(一般B)：反応拡散方程式と非線形分散型方程式の解の挙動",
+      "location": "📍 大阪公立大学（オンライン）",
+      "status": "upcoming",
+			"presentationType": "",
+			"url": ""
+    },
+    {
+      "month": "2月",
+      "day": "16-17",
+      "title": "第27回北東数学解析研究会",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "",
+			"url": "https://www.math.sci.hokudai.ac.jp/sympo/nema/27.html"
+    },
+    {
+      "month": "2月",
+      "day": "14",
+      "title": "WEBSITEを新しくしました．",
+      "location": "",
+      "status": "past",
+			"presentationType": "",
+			"url": ""
+    },
+    {
+      "month": "1月",
+      "day": "4-8",
+      "title": "Winter Annual Conference on Dynamical Systems 2025",
+      "location": "📍 日本大学軽井沢研修所",
+      "status": "past",
+			"presentationType": "oral",
+			"url": ""
     }
   ],
 	"2025": [
