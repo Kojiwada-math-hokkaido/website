@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Twitter",
+    "description": "日々の活動など",
+    "url": "https://x.com/kjmath_0821",
+    "iconType": "image",
+    "icon": "./images/twitter.png"
+  },
+  {
+    "title": "GitHub",
+    "description": "コードや研究資料",
+    "url": "https://github.com/yourusername",
+    "iconType": "image",
+    "icon": "./images/github.jpg"
+  },
+  {
+    "title": "Qiita",
+    "description": "技術記事など",
+    "url": "https://qiita.com/kojiwada",
+    "iconType": "image",
+    "icon": "./images/qiita-icon.png"
+  },
+  {
+    "title": "Clock",
+    "description": "アプリケーション",
+    "url": "https://kojiwada-math-hokkaido.github.io/clock_app/",
+    "iconType": "image",
+    "icon": "./images/clock.png"
+  },
+  {
+    "title": "LBR",
+    "description": "アプリケーション",
+    "url": "https://kojiwada-math-hokkaido.github.io/Remover/",
+    "iconType": "image",
+    "icon": "./images/book.png"
+  }
+]
