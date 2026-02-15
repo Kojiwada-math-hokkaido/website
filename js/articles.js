@@ -52,8 +52,4 @@ function renderArticles() {
 			container.appendChild(card);
 	});
 
-	// MathJaxで数式を再レンダリング
-	if (window.MathJax) {
-			MathJax.typesetPromise([container]).catch((err) => console.log('MathJax error:', err));
-	}
 }
