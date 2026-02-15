@@ -44,6 +44,7 @@
       <li><a href="#about" onclick="closeMenu()">About</a></li>
       <li><a href="#research" onclick="closeMenu()">Research</a></li>
       <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+      <li><a href="#activities" onclick="closeMenu()">Activities</a></li>
       <li><a href="#schedule" onclick="closeMenu()">Schedule</a></li>
       <li><a href="#access" onclick="closeMenu()">Access</a></li>
       <li><a href="#links" onclick="closeMenu()">Links</a></li>
@@ -110,6 +111,13 @@
                 <div class="info-label">連絡先</div>
                 <div class="info-value">wada.koji.n4[at]elms.hokudai.ac.jp</div>
               </div>
+              <div class="info-row">
+                <div class="info-label">所属学会</div>
+                <div class="info-value">
+                  日本応用数理学会<br>
+                  日本数学会
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -140,6 +148,10 @@
             <div class="year">2025 - 現在</div>
           </div>
           <div class="timeline-item">
+            <h3>北海道大学EXEX博士人材フェローシップ DX博士人材コース フェローシップ生</h3>
+            <div class="year">2025 - 現在</div>
+          </div>
+          <div class="timeline-item">
             <h3>北海道大学 人間知・脳・AI研究教育センター 教育プログラム</h3>
             <div class="year">2023 - 現在</div>
           </div>
@@ -155,6 +167,26 @@
             <h3>釧路工業高等専門学校 創造工学科 エレクトロニクスコース 電子工学分野</h3>
             <div class="year">2016 - 2020</div>
           </div>
+        </div>
+      </section>
+
+      <div class="divider">---</div>
+
+      <!-- Activitiesセクション -->
+      <section id="activities">
+        <h2># Activities</h2>
+        <p class="about-intro" id="activitiesIntro">教育・研究活動など</p>
+
+        <!-- タブ -->
+        <div class="activity-tabs">
+          <button class="activity-tab active" onclick="switchActivityTab('teaching')">Teaching</button>
+          <button class="activity-tab" onclick="switchActivityTab('research_assistant')">Research Assistant</button>
+          <button class="activity-tab" onclick="switchActivityTab('academic_service')">Academic Service</button>
+        </div>
+
+        <!-- コンテンツ -->
+        <div id="activitiesContainer">
+          <!-- JavaScriptで動的に生成 -->
         </div>
       </section>
 
@@ -224,5 +256,6 @@
     <script src="js/ai_index.js"></script>
     <script src="js/research-data.js"></script>
     <script src="js/hamburger.js"></script>
+    <script src="js/activities.js"></script>
   </body>
 </html>
