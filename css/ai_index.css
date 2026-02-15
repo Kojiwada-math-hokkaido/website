@@ -662,6 +662,124 @@ h2 {
 		color: #7b1fa2;
 }
 
+/* Articlesセクション */
+.articles-scroll-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.articles-scroll {
+	display: flex;
+	gap: 2rem;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	padding: 1rem 0 2rem 0;
+	-webkit-overflow-scrolling: touch;
+	scrollbar-width: thin;
+	scrollbar-color: #667eea #f0f0f0;
+}
+
+.articles-scroll::-webkit-scrollbar {
+	height: 8px;
+}
+
+.articles-scroll::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 4px;
+}
+
+.articles-scroll::-webkit-scrollbar-thumb {
+	background: #667eea;
+	border-radius: 4px;
+}
+
+.articles-scroll::-webkit-scrollbar-thumb:hover {
+	background: #5568d3;
+}
+
+.article-card {
+	flex: 0 0 350px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 12px;
+	overflow: hidden;
+	transition: all 0.3s;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+.article-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 30px rgba(102, 126, 234, 0.15);
+	border-color: #667eea;
+}
+
+.article-card-image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.article-card-content {
+	padding: 1.5rem;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.article-card-category {
+	display: inline-block;
+	padding: 0.25rem 0.75rem;
+	background: #e8f4f8;
+	color: #667eea;
+	font-size: 0.75rem;
+	border-radius: 12px;
+	margin-bottom: 0.75rem;
+	width: fit-content;
+	font-weight: 500;
+}
+
+.article-card-title {
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin-bottom: 0.75rem;
+	color: #333;
+	line-height: 1.4;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.article-card-summary {
+	font-size: 0.9rem;
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+	flex: 1;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.article-card-date {
+	font-size: 0.85rem;
+	color: #999;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.article-card-date::before {
+	content: '📅';
+}
+
 /* Access Mapセクション */
 .map-container {
 		max-width: 100%;

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "数学参考書まとめ",
+    "summary": "数学の参考書などを各分野ごとにまとめました．",
+    "image": "./images/articles.jpg",
+    "date": "2026.2.16",
+    "category": "チュートリアル",
+    "url": "https://example.com/article1"
+  },
+  {
+    "title": "関数解析入門",
+    "summary": "テストとして関数解析に関するトピックをまとめたい．",
+    "image": "./images/articles.jpg",
+    "date": "2026.2.16",
+    "category": "解説記事",
+    "url": "https://example.com/article2"
+  }
+]
