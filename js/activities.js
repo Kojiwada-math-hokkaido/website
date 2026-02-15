@@ -78,4 +78,10 @@ function renderActivities(tab) {
 	});
 
 	container.appendChild(timeline);
+
+
+	// MathJaxで数式を再レンダリング
+	if (window.MathJax) {
+		MathJax.typesetPromise([container]).catch((err) => console.log('MathJax error:', err));
+	}
 }
