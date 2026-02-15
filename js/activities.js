@@ -49,6 +49,7 @@ function switchActivityTab(tab) {
 	renderActivities(tab);
 }
 
+
 function renderActivities(tab) {
 	const container = document.getElementById('activitiesContainer');
 	const items = activitiesData[tab] || [];
@@ -67,10 +68,16 @@ function renderActivities(tab) {
 			const activityItem = document.createElement('div');
 			activityItem.className = 'activity-item';
 
+			const title = item.course || item.project || item.organization;
+			const label = item.position || item.role;
+			const institution = item.institution ? ' | ' + item.institution : '';
+
 			activityItem.innerHTML = `
-					<div class="position">${item.position || item.role}</div>
-					<h3>${item.course || item.project || item.organization}</h3>
-					<div class="period">${item.period}${item.institution ? ' | ' + item.institution : ''}</div>
+					<div>
+							<span class="position">${label}</span>
+							<h3>${title}</h3>
+					</div>
+					<div class="period">${item.period}${institution}</div>
 					<div class="description">${item.description}</div>
 			`;
 
@@ -78,7 +85,6 @@ function renderActivities(tab) {
 	});
 
 	container.appendChild(timeline);
-
 
 	// MathJaxで数式を再レンダリング
 	if (window.MathJax) {
