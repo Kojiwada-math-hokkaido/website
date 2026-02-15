@@ -24,16 +24,16 @@
       "title": "函数方程式論の新潮流–2026",
       "location": "📍 北海道大学",
       "status": "upcoming",
-			"presentationType": "",
+			"presentationType": "attendance",
 			"url": "https://www.math.sci.hokudai.ac.jp/~kosuke.kita/new_trends/"
     },
     {
       "month": "2月",
       "day": "16",
-      "title": "数理科学セミナー：細胞死の理論と自律性",
+      "title": "数理科学セミナー：細胞死の理論と自律性(姫岡 優介)",
       "location": "📍 北海道大学",
       "status": "upcoming",
-			"presentationType": "",
+			"presentationType": "attendance",
 			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14187"
     },
     {
@@ -42,7 +42,7 @@
       "title": "OCAMI 共同研究(一般B)：反応拡散方程式と非線形分散型方程式の解の挙動",
       "location": "📍 大阪公立大学（オンライン）",
       "status": "upcoming",
-			"presentationType": "",
+			"presentationType": "attendance",
 			"url": ""
     },
     {
@@ -51,17 +51,53 @@
       "title": "第27回北東数学解析研究会",
       "location": "📍 北海道大学",
       "status": "upcoming",
-			"presentationType": "",
+			"presentationType": "attendance",
 			"url": "https://www.math.sci.hokudai.ac.jp/sympo/nema/27.html"
     },
     {
       "month": "2月",
       "day": "14",
-      "title": "WEBSITEを新しくしました．",
+      "title": "WEBSITEを刷新しました．",
       "location": "",
       "status": "past",
 			"presentationType": "",
 			"url": ""
+    },
+    {
+      "month": "2月",
+      "day": "2",
+      "title": "数理科学セミナー：Dynamically defined Cantor setの差集合について(三波 篤郎)、On the intersection of Cantor sets and products of random matrices(アリババイ 仁真)",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14186"
+    },
+    {
+      "month": "2月",
+      "day": "3",
+      "title": "Mini-workshop on dynamical systems",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": ""
+    },
+    {
+      "month": "1月",
+      "day": "30",
+      "title": "偏微分方程式セミナー: 工藤拓人氏 / 和田隆之介氏 / 石井馨氏",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14242"
+    },
+    {
+      "month": "1月",
+      "day": "26",
+      "title": "数理科学セミナー：初等的に厳密解析可能な確率セルオートマトンの拡張について(延東 和茂)",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14184"
     },
     {
       "month": "1月",
@@ -75,6 +111,196 @@
   ],
 	"2025": [
     {
+      "month": "12月",
+      "day": "24",
+      "title": "令和7年度日本数学会北海道支部講演会・支部総会",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14023"
+    },
+    {
+      "month": "12月",
+      "day": "17-19",
+      "title": "複雑系：AI時代の複雑系研究の展開",
+      "location": "📍 京都大学 基礎物理学研究所 湯川記念館",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/complex-system/"
+    },
+    {
+      "month": "12月",
+      "day": "13-15",
+      "title": "研究集会「力学系とその周辺」",
+      "location": "📍 京都大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/dsrt-ism/"
+    },
+    {
+      "month": "12月",
+      "day": "4-10",
+      "title": "Dynamics Days Kagoshima 2025",
+      "location": "📍 鹿児島大学",
+      "status": "past",
+			"presentationType": "poster",
+			"url": "https://sites.google.com/view/dynamicsdays25/"
+    },
+    {
+      "month": "10月",
+      "day": "30-4",
+      "title": "Models of Consciousness 2025 に学生スタッフとして参加しました．",
+      "location": "📍 Hokkaido University, Japan",
+      "status": "past",
+			"presentationType": "",
+			"url": "https://amcs-community.org/events/moc6-2025/"
+    },
+    {
+      "month": "9月",
+      "day": "30",
+      "title": "学科紹介・数学科企画に登壇しました．",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "oral",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/13731"
+    },
+    {
+      "month": "9月",
+      "day": "16-19",
+      "title": "日本数学会 2025年度秋季総合分科会",
+      "location": "📍 名古屋大学",
+      "status": "past",
+			"presentationType": "oral",
+			"url": "https://www.mathsoc.jp/activity/meeting/nagoya25sept/"
+    },
+    {
+      "month": "9月",
+      "day": "2-4",
+      "title": "日本応用数理学会2025年度年会",
+      "location": "📍 東京理科大学 神楽坂キャンパス",
+      "status": "past",
+			"presentationType": "oral",
+			"url": "https://jsiam.org/jsiam_archive/past_meetings/annual2025/"
+    },
+    {
+      "month": "8月",
+      "day": "25-29",
+      "title": "The 1st Japan-Spain Forum for PDEs and their applications",
+      "location": "📍 Hokkaido University, Japan",
+      "status": "past",
+			"presentationType": "poster",
+			"url": "https://sites.google.com/view/japan-spain-forum-pdes/welcome"
+    },
+    {
+      "month": "8月",
+      "day": "25-29",
+      "title": "Computational Methods in Dynamical Systems  2025",
+      "location": "📍 Hokkaido University, Japan",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/dyn-comp-2025/"
+    },
+    {
+      "month": "8月",
+      "day": "18-22",
+      "title": "2025年度 CHAINサマースクール：「生命と言語進化の構成論」",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www.chain.hokudai.ac.jp/events/4588/"
+    },
+    {
+      "month": "8月",
+      "day": "4-6",
+      "title": "第50回偏微分方程式シンポジウム",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www.math.sci.hokudai.ac.jp/sympo/sapporo/program250804.html"
+    },
+    {
+      "month": "7月",
+      "day": "25",
+      "title": "第82回数理工学（MCME）セミナー",
+      "location": "📍 武蔵野大学（招待あり）",
+      "status": "past",
+			"presentationType": "oral",
+			"url": "https://www.musashino-u.ac.jp/research/%E7%AC%AC82%E5%9B%9EMCME%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC.pdf"
+    },
+    {
+      "month": "7月",
+      "day": "21-25",
+      "title": "FPSAC 2025 - The 37th International Conference on Formal Power Series and Algebraic Combinatoricsに学生スタッフとして参加しました．",
+      "location": "📍 Hokkaido University, Japan",
+      "status": "past",
+			"presentationType": "",
+			"url": "https://www.math.sci.hokudai.ac.jp/sympo/fpsac2025/"
+    },
+    {
+      "month": "7月",
+      "day": "18",
+      "title": "数学科ジンパを開催しました．",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "",
+			"url": ""
+    },
+    {
+      "month": "7月",
+      "day": "9",
+      "title": "数学科「サイエンスグローブ」",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/13240"
+    },
+    {
+      "month": "6月",
+      "day": "6-8",
+      "title": "第67回北大祭 北大レクチャーに参加しました．",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "poster",
+			"url": ""
+    },
+    {
+      "month": "5月",
+      "day": "26",
+      "title": "月曜解析セミナー：重み付き$p$-Laplace方程式に対するゲーム解釈, 相原 真生 氏",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/13095"
+    },
+    {
+      "month": "5月",
+      "day": "23",
+      "title": "偏微分方程式セミナー: Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping, 若狭 恭平 氏",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/13072"
+    },
+    {
+      "month": "5月",
+      "day": "1",
+      "title": "The 3rd Taiwan-Japan Joint Workshop on Applied Mathematics",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "poster",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/12951"
+    },
+    {
+      "month": "4月",
+      "day": "18",
+      "title": "偏微分方程式セミナー：On weighted estimates of solutions to the damped wave equation in lower dimensions and its applications, 喜多 航佑 氏",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/12763"
+    },
+
+    {
       "month": "4月",
       "day": "1",
       "title": "北海道大学大学院理学院数学専攻博士課程に入学しました．",
@@ -82,6 +308,24 @@
       "status": "past",
 			"presentationType": "",
 			"url": ""
+    },
+    {
+      "month": "3月",
+      "day": "28",
+      "title": "第50回CHAIN Seminar 松田英子「子どもの現象学―共感覚、想像の友達、懐かしさ」",
+      "location": "📍 北海道大学（オンライン）",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www.chain.hokudai.ac.jp/events/4463/"
+    },
+    {
+      "month": "3月",
+      "day": "26",
+      "title": "「有限時間特異性」勉強会 第12回",
+      "location": "📍 オンライン",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/finite-time-singularity-jp2021/"
     },
     {
       "month": "3月",
@@ -94,7 +338,7 @@
     },
     {
       "month": "3月",
-      "day": "3",
+      "day": "3-7",
       "title": "第21回数学総合若手研究集会～数学の交叉点～",
       "location": "📍 北海道大学",
       "status": "past",
@@ -102,13 +346,22 @@
 			"url": "https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2025/ja/index.html"
     },
     {
+      "month": "3月",
+      "day": "3-4",
+      "title": "非線形現象の数値シミュレーションと解析2025",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://mmc01.es.hokudai.ac.jp/npsa/2025.html"
+    },
+    {
       "month": "2月",
-      "day": "17",
+      "day": "17-18",
       "title": "The 26th Northeastern Symposium on Mathematical Analysis",
       "location": "📍 Tohoku University, Japan",
       "status": "past",
 			"presentationType": "poster",
-			"url": ""
+			"url": "https://www.math.sci.hokudai.ac.jp/sympo/nema/26.html"
     },
     {
       "month": "1月",
@@ -133,7 +386,7 @@
     {
       "month": "12月",
       "day": "6",
-      "title": "釧路高専 分野横断研究会を開催しました.l",
+      "title": "釧路高専 分野横断研究会を開催しました.",
       "location": "📍 釧路高専",
       "status": "past",
 			"presentationType": "oral",
@@ -234,7 +487,7 @@
     {
       "month": "9月",
       "day": "14-15",
-      "title": "釧路鳥取神社例大祭に釧路鳥取傘踊り保存会として参加",
+      "title": "釧路鳥取神社例大祭に釧路鳥取傘踊り保存会として参加しました．",
       "location": "📍 釧路市",
       "status": "past",
 			"presentationType": "",
