@@ -19,24 +19,22 @@ function closeMenu() {
 	overlay.classList.remove('active');
 }
 
-
 // ナビゲーションタイトルの表示/非表示制御
 const navTitle = document.getElementById('navTitle');
-const aboutSection = document.getElementById('about');
+const heroTitle = document.querySelector('.hero h1');
 
 window.addEventListener('scroll', () => {
 	if (window.innerWidth <= 768) {  // モバイルのみ
-		const aboutPosition = aboutSection.offsetTop;
-		const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		const heroRect = heroTitle.getBoundingClientRect();
 		const navHeight = 60;  // ナビゲーションバーの高さ
 
-		// Aboutセクションがナビゲーションバーの位置に来たら表示
-		if (scrollTop >= aboutPosition - navHeight) {
+		// h1が画面外（上に隠れた）場合にタイトルを表示
+		if (heroRect.bottom < navHeight) {
 			navTitle.classList.add('visible');
 		} else {
 			navTitle.classList.remove('visible');
-			}
-	} else {
+		}
+} else {
 		// デスクトップでは常に非表示
 		navTitle.classList.remove('visible');
 	}
