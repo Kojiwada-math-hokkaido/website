@@ -447,8 +447,8 @@ h2 {
 .activity-item::before {
 	content: '';
 	position: absolute;
-	left: -3.4rem;
-	top: 3px;
+	left: -3.3rem;
+	top: 7px;
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
@@ -910,11 +910,33 @@ footer {
 
 	.activity-tabs {
 		gap: 0.5rem;
+		overflow-x: auto;
+		overflow-y: hidden;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		padding-bottom: 0.5rem;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: thin;
+	}
+
+	.activity-tabs::-webkit-scrollbar {
+		height: 4px;
+	}
+
+	.activity-tabs::-webkit-scrollbar-track {
+		background: #f0f0f0;
+		border-radius: 2px;
+	}
+
+	.activity-tabs::-webkit-scrollbar-thumb {
+		background: #667eea;
+		border-radius: 2px;
 	}
 
 	.activity-tab {
 		padding: 0.6rem 1rem;
 		font-size: 0.85rem;
+		flex-shrink: 0;
 	}
 
 	.activity-timeline {
@@ -922,7 +944,7 @@ footer {
 	}
 
 	.activity-item::before {
-		left: -2.5rem;
+		left: -2.4rem;
 	}
 
 	.schedule-item {
@@ -944,12 +966,31 @@ footer {
 	}
 
 	.year-tabs {
-			gap: 0.5rem;
+		overflow-x: auto;
+		overflow-y: hidden;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		padding-bottom: 0.5rem;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: thin;
+	}
+
+	.year-tabs::-webkit-scrollbar {
+		height: 4px;
+	}
+
+	.year-tabs::-webkit-scrollbar-track {
+		background: #f0f0f0;
+		border-radius: 2px;
+	}
+
+	.year-tabs::-webkit-scrollbar-thumb {
+		background: #667eea;
+		border-radius: 2px;
 	}
 
 	.year-tab {
-			padding: 0.6rem 1rem;
-			font-size: 0.9rem;
+		flex-shrink: 0;
 	}
 
 	.map-container iframe {
