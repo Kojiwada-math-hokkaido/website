@@ -29,6 +29,8 @@ let currentYear = 2025;
 let scheduleData = {};
 
 // スケジュールデータを読み込む
+loadScheduleData();
+
 async function loadScheduleData() {
 		try {
 				const response = await fetch('schedule-data.json');
