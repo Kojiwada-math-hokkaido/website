@@ -1195,6 +1195,7 @@ footer {
 	.article-card {
 		flex: 0 0 280px;
 	}
+
 	/* モバイルでスワイパー形式を有効化 */
 	@media (max-width: 768px) {
 		.article-card {

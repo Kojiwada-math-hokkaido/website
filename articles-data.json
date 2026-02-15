@@ -22,5 +22,13 @@
     "date": "2026.2.16",
     "category": "解説記事",
     "url": "https://example.com/article2"
+  },
+  {
+    "title": "グラフ理論",
+    "summary": "テストとしてグラフ理論に関するトピックをまとめたい．",
+    "image": "./images/articles.jpg",
+    "date": "2026.2.16",
+    "category": "解説記事",
+    "url": "https://example.com/article2"
   }
 ]

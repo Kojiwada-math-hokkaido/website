@@ -76,36 +76,70 @@ function renderArticles() {
 }
 
 let currentArticleIndex = 0;
+let isManualScroll = false; // ボタン/ドット操作かどうかのフラグ
 
 function scrollToArticle(index) {
 	const container = document.getElementById('articlesContainer');
 	const cards = container.querySelectorAll('.article-card');
 	if (cards[index]) {
+			isManualScroll = true;
 			cards[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
 			currentArticleIndex = index;
+			updateArticleDotsManual(index);
+
+			// スクロール完了後にフラグをリセット
+			setTimeout(() => {
+					isManualScroll = false;
+			}, 600);
 	}
 }
 
 function scrollArticle(direction) {
-	const container = document.getElementById('articlesContainer');
-	const cards = container.querySelectorAll('.article-card');
-	currentArticleIndex = Math.max(0, Math.min(currentArticleIndex + direction, cards.length - 1));
+	const totalArticles = articlesData.length;
+
+	// 無限ループ処理
+	currentArticleIndex += direction;
+
+	if (currentArticleIndex < 0) {
+			// 最初から最後へ
+			currentArticleIndex = totalArticles - 1;
+	} else if (currentArticleIndex >= totalArticles) {
+			// 最後から最初へ
+			currentArticleIndex = 0;
+	}
+
 	scrollToArticle(currentArticleIndex);
 }
 
+function updateArticleDotsManual(index) {
+	const dots = document.querySelectorAll('.articles-dot');
+	dots.forEach((dot, i) => {
+			if (i === index) {
+					dot.classList.add('active');
+			} else {
+					dot.classList.remove('active');
+			}
+	});
+}
+
 function updateArticleDots() {
+	// 手動スクロール中は自動更新をスキップ
+	if (isManualScroll) return;
+
 	const container = document.getElementById('articlesContainer');
 	const cards = container.querySelectorAll('.article-card');
 	const dots = document.querySelectorAll('.articles-dot');
 
-	// 現在表示されているカードを判定
+	// 現在表示されているカードを判定（中央に最も近いカード）
 	const containerRect = container.getBoundingClientRect();
+	const containerCenter = containerRect.left + containerRect.width / 2;
 	let closestIndex = 0;
 	let closestDistance = Infinity;
 
 	cards.forEach((card, index) => {
 			const cardRect = card.getBoundingClientRect();
-			const distance = Math.abs(cardRect.left - containerRect.left);
+			const cardCenter = cardRect.left + cardRect.width / 2;
+			const distance = Math.abs(cardCenter - containerCenter);
 			if (distance < closestDistance) {
 					closestDistance = distance;
 					closestIndex = index;
@@ -122,4 +156,57 @@ function updateArticleDots() {
 	});
 
 	currentArticleIndex = closestIndex;
+}
+
+// タッチ/スワイプでのループ処理
+let articleTouchStartX = 0;
+let articleScrollLeft = 0;
+
+function initArticleSwipe() {
+	const container = document.getElementById('articlesContainer');
+
+	container.addEventListener('touchstart', (e) => {
+			articleTouchStartX = e.touches[0].clientX;
+			articleScrollLeft = container.scrollLeft;
+	});
+
+	container.addEventListener('touchend', (e) => {
+			const touchEndX = e.changedTouches[0].clientX;
+			const diff = articleTouchStartX - touchEndX;
+
+			// スワイプ距離が50px以上の場合のみ判定
+			if (Math.abs(diff) > 50) {
+					if (diff > 0) {
+							// 左にスワイプ（次へ）
+							scrollArticle(1);
+					} else {
+							// 右にスワイプ（前へ）
+							scrollArticle(-1);
+					}
+			}
+	});
+
+	// スクロール終了時にインデックスを更新
+	let scrollTimeout;
+	container.addEventListener('scroll', () => {
+			clearTimeout(scrollTimeout);
+			scrollTimeout = setTimeout(() => {
+					updateArticleDots();
+			}, 150);
+	});
+}
+
+// Articles読み込み後にスワイプ初期化
+async function loadArticlesData() {
+	try {
+			const response = await fetch('articles-data.json');
+			articlesData = await response.json();
+			renderArticles();
+			initArticleSwipe();
+	} catch (error) {
+			console.error('Articlesデータの読み込みに失敗しました:', error);
+			articlesData = getDefaultArticlesData();
+			renderArticles();
+			initArticleSwipe();
+	}
 }
