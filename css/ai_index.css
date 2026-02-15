@@ -85,6 +85,24 @@ nav a:hover {
 		color: #667eea;
 }
 
+/* ナビゲーションタイトル */
+.nav-title {
+	display: none;
+	position: absolute;
+	left: 2rem;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 1rem;
+	font-weight: 500;
+	color: #333;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.nav-title.visible {
+	opacity: 1;
+}
+
 /* ハンバーガーメニューボタン */
 .hamburger {
 		display: none;
@@ -817,6 +835,15 @@ footer {
 			display: flex;
 	}
 
+	/* ナビゲーションタイトルを表示可能に */
+	.nav-title {
+		display: block;
+		max-width: calc(100% - 120px);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
 	nav {
 			padding: 1.5rem 2rem;
 	}
@@ -945,6 +972,16 @@ footer {
 
 	.activity-item::before {
 		left: -2.4rem;
+	}
+
+	.activity-item .position,
+	.activity-item h3 {
+		display: block;
+	}
+
+	.activity-item .position {
+		margin-bottom: 0.2rem;
+		margin-right: 0;
 	}
 
 	.schedule-item {
