@@ -30,16 +30,7 @@
     {
       "month": "2月",
       "day": "16",
-      "title": "数理科学セミナー：細胞死の理論と自律性(姫岡 優介)",
-      "location": "📍 北海道大学",
-      "status": "upcoming",
-			"presentationType": "attendance",
-			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14187"
-    },
-    {
-      "month": "2月",
-      "day": "16",
-      "title": "OCAMI 共同研究(一般B)：反応拡散方程式と非線形分散型方程式の解の挙動",
+      "title": "反応拡散方程式と非線形分散型方程式の解の挙動",
       "location": "📍 大阪公立大学（オンライン）",
       "status": "upcoming",
 			"presentationType": "attendance",
@@ -50,9 +41,18 @@
       "day": "16-17",
       "title": "第27回北東数学解析研究会",
       "location": "📍 北海道大学",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "attendance",
 			"url": "https://www.math.sci.hokudai.ac.jp/sympo/nema/27.html"
+    },
+    {
+      "month": "2月",
+      "day": "16",
+      "title": "数理科学セミナー：細胞死の理論と自律性(姫岡 優介)",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14187"
     },
     {
       "month": "2月",
@@ -172,6 +172,15 @@
       "status": "past",
 			"presentationType": "oral",
 			"url": "https://www.mathsoc.jp/activity/meeting/nagoya25sept/"
+    },
+    {
+      "month": "9月",
+      "day": "9",
+      "title": "第1回 CHAIN SYMPOSIUM",
+      "location": "📍 北海道大学 クラーク会館",
+      "status": "past",
+			"presentationType": "",
+			"url": "https://www.chain.hokudai.ac.jp/events/4645/"
     },
     {
       "month": "9月",
