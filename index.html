@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>KojiWada's website</title>
+    <meta name="desctiption" content="KojiWadaのwebsiteです">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/ai_index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Tex (MathJax) -->
+    <!-- <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+   <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+    <!-- ajax -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <!-- icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/common/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- google htmlタグ-->
+    <meta name="google-site-verification" content="j7VU_NmZw-AdLhS_PUzFXFEbykO6bJmoNEhD7FbmdEQ" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+      <h1 class="loading-text">Now loading<span class="loading-dots">...</span></h1>
+    </div>
+
+
+  <!-- メニューオーバーレイ -->
+  <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+
+  <!-- ナビゲーション -->
+  <nav>
+    <div class="nav-title" id="navTitle">KOJIWADA'S WEBSITE</div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="navMenu">
+      <li><a href="#main" onclick="closeMenu()">Portfolio</a></li>
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#research" onclick="closeMenu()">Research</a></li>
+      <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+      <li><a href="#activities" onclick="closeMenu()">Activities</a></li>
+      <li><a href="#schedule" onclick="closeMenu()">Schedule</a></li>
+      <li><a href="#articles" onclick="closeMenu()">Articles</a></li>
+      <li><a href="#access" onclick="closeMenu()">Access</a></li>
+      <li><a href="#links" onclick="closeMenu()">Links</a></li>
+    </ul>
+  </nav>
+
+    <main class="main">
+
+      <section id="main" class="hero">
+        <h1>KOJIWADA'S WEBSITE</h1>
+        <p>Researcher's Portfolio</p>
+      </section>
+
+      <div class="divider">---</div>
+
+      <!-- Aboutセクション -->
+      <section id="about">
+        <h2># About me</h2>
+        <p class="about-intro">自己紹介など</p>
+
+        <div class="about-content">
+          <div class="profile-image">
+              <img src="images/tiger.png">
+          </div>
+          <div class="profile-info">
+            <h3>和田 康司</h3>
+            <h4>Koji Wada</h4>
+            <p>
+              北海道大学に所属している和田康司と申します．<br>
+              数学を専門としており，
+              特に力学系の研究に取り組んでいます．
+            </p>
+            <!-- <p>
+              研究を通じて、技術が社会にもたらす価値を追求し、より良い未来を創造することを目指しています。
+            </p> -->
+            <p>
+              My name is Koji Wada belong to Hokkaido university.<br>
+              My research fields are the discrete dynamical system and discrete wave equation.<br>
+              Thank you for visiting my website!!<br>
+              [Last update : February 13, 2026]
+            </p>
+
+            <div class="info-table">
+              <div class="info-row">
+                <div class="info-label">所属</div>
+                <div class="info-value">
+                  北海道大学大学院 理学院数学専攻 博士課程<br>
+                  北海道大学 人間知・脳・AI研究教育センター
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">研究テーマ</div>
+                <div class="info-value">大域結合写像におけるカオス的遍歴の特徴づけ</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">専門分野</div>
+                <div class="info-value">カオス，力学系，偏微分方程式，数値解析</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">趣味</div>
+                <div class="info-value">伝統芸能，野球観戦，ベンチプレス</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">連絡先</div>
+                <div class="info-value">wada.koji.n4[at]elms.hokudai.ac.jp</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">所属学会</div>
+                <div class="info-value">
+                  日本応用数理学会<br>
+                  日本数学会
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <div class="divider">---</div>
+
+    <!-- Researchセクション -->
+    <section id="research">
+      <h2># Research</h2>
+      <p class="about-intro" id="researchIntro">研究内容やプロジェクトなど</p>
+
+      <div class="research-grid" id="researchContainer">
+        <!-- JavaScriptで動的に生成 -->
+      </div>
+    </section>
+
+      <div class="divider">---</div>
+
+      <!-- Experienceセクション -->
+      <section id="experience">
+        <h2># Experience</h2>
+        <p class="about-intro">経歴など</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>北海道大学大学院 理学院数学専攻 博士課程</h3>
+            <div class="year">2025 - 現在</div>
+          </div>
+          <div class="timeline-item">
+            <h3>北海道大学EXEX博士人材フェローシップ DX博士人材コース フェローシップ生</h3>
+            <div class="year">2025 - 現在</div>
+          </div>
+          <div class="timeline-item">
+            <h3>北海道大学 人間知・脳・AI研究教育センター 教育プログラム</h3>
+            <div class="year">2023 - 現在</div>
+          </div>
+          <div class="timeline-item">
+            <h3>北海道大学大学院 理学院数学専攻 修士課程</h3>
+            <div class="year">2023 - 2024</div>
+          </div>
+          <div class="timeline-item">
+            <h3>北海道大学 理学部 数学科</h3>
+            <div class="year">2021 - 2022</div>
+          </div>
+          <div class="timeline-item">
+            <h3>釧路工業高等専門学校 創造工学科 エレクトロニクスコース 電子工学分野</h3>
+            <div class="year">2016 - 2020</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider">---</div>
+
+      <!-- Activitiesセクション -->
+      <section id="activities">
+        <h2># Activities</h2>
+        <p class="about-intro" id="activitiesIntro">教育・研究活動など</p>
+
+        <!-- タブ -->
+        <div class="activity-tabs">
+          <button class="activity-tab active" onclick="switchActivityTab('teaching')">Teaching</button>
+          <button class="activity-tab" onclick="switchActivityTab('research_assistant')">Research Assistant</button>
+          <button class="activity-tab" onclick="switchActivityTab('academic_service')">Academic Service</button>
+        </div>
+
+        <!-- コンテンツ -->
+        <div id="activitiesContainer">
+          <!-- JavaScriptで動的に生成 -->
+        </div>
+      </section>
+
+      <div class="divider">---</div>
+
+      <!-- Scheduleセクション -->
+      <section id="schedule">
+        <h2># Schedule</h2>
+        <p class="about-intro">学会・研究集会の参加予定など</p>
+
+        <!-- 年度切り替えタブ -->
+        <div class="year-tabs" id="yearTabs">
+          <!-- JavaScriptで動的に生成 -->
+        </div>
+        <!-- スケジュールコンテンツ -->
+        <div id="scheduleContainer">
+          <!-- JavaScriptで動的に生成 -->
+        </div>
+      </section>
+      <div class="divider">---</div>
+
+  <!-- Articlesセクション -->
+  <section id="articles">
+    <h2># Articles</h2>
+    <p class="about-intro">研究ノート・技術記事</p>
+
+    <div class="articles-scroll-container">
+      <div class="articles-scroll" id="articlesContainer">
+        <!-- JavaScriptで動的に生成 -->
+      </div>
+      <!-- スワイパーのドットインジケーター -->
+      <div class="articles-dots" id="articlesDots"></div>
+      <!-- ナビゲーションボタン -->
+      <button class="articles-nav-btn articles-nav-prev" id="articlesPrev" aria-label="前へ">‹</button>
+      <button class="articles-nav-btn articles-nav-next" id="articlesNext" aria-label="次へ">›</button>
+    </div>
+  </section>
+
+      <div class="divider">---</div>
+
+      <!-- Access Mapセクション -->
+      <section id="access">
+        <h2># Access Map</h2>
+        <p class="about-intro">研究室へのアクセス</p>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2096.04054315544!2d141.33926951190688!3d43.07270200971974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x255c656b40d6e022!2z55CG5a2m56CU56m26Zmi77yT5Y-36aSo!5e0!3m2!1sja!2sjp!4v1660817503373!5m2!1sja!2sjp"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </section>
+
+      <div class="divider">---</div>
+
+
+      <!-- Linksセクション -->
+      <section id="links">
+        <h2># Links</h2>
+        <p class="links-intro">リンクなど</p>
+
+        <div class="links-grid" id="linksContainer">
+          <!-- JavaScriptで動的に生成 -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 Koji Wada
+    </footer>
+
+    <!-- 動的モーダル -->
+    <div id="dynamicModal" class="modal" onclick="closeDynamicModal()">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeDynamicModal()">×</button>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+    </main>
+
+    <script src="js/ai_index.js"></script>
+    <script src="js/research-data.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/activities.js"></script>
+    <script src="js/articles.js"></script>
+  </body>
+</html>
