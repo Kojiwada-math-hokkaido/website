@@ -7,7 +7,113 @@
       "date": "2023.12 -",
       "summary": "カオス素子の結合系である大域結合写像において現れる非線形現象を数値シミュレーションによって解析している．",
       "image": "./images/78251.jpg",
-      "details": "工事中\n\n"
+      "details": "工事中\n\n",
+      "publications": [
+        {
+          "authors": "Koji Wada",
+          "title": "Super-transient chaos on globally coupled map with uniform coupling strength",
+          "journal": "in preparation",
+          "volume": "",
+          "number": "",
+          "pages": "",
+          "year": "2026",
+          "doi": ""
+        },
+        {
+          "authors": "Koji Wada, Takao Namiki",
+          "title": "Cluster Analysis for Globally Coupled Map using Optimal Transport Distance and Complexity of Attractor-ruin",
+          "journal": "arXiv preprint",
+          "volume": "",
+          "number": "",
+          "pages": "",
+          "year": "2025",
+          "doi": "10.48550/arXiv.2510.00538"
+        }
+      ],
+      "misc": [
+        {
+          "authors": "和田康司, 行木孝夫",
+          "title": "大域結合写像に対するアトラクター痕跡の安定性",
+          "source": "日本応用数理学会 2025年度年会 講演予稿集",
+          "identifier": "",
+          "year": "2025",
+          "doi": ""
+        },
+        {
+          "authors": "和田康司",
+          "title": "最適輸送距離による大域結合写像のクラスター解析",
+          "source": "北海道大学数学講究録, 第21回数学総合若手研究集会 : 数学の交叉点",
+          "identifier": "",
+          "year": "2025",
+          "doi": ""
+        }
+      ],
+      "presentations": [
+        {
+          "authors": "Koji Wada",
+          "title": "Evaluation of the entropy of super-transients for globally coupled chaotic maps",
+          "conference": "Winter Annual Conference on Dynamical Systems 2025",
+          "location": "日本大学軽井沢研修所",
+          "date": "11 January 2026",
+          "type": "oral"
+        },
+        {
+          "authors": "Koji Wada",
+          "title": "Super-Transient on Globally Coupled Chaotic Maps",
+          "conference": "Dynamics Days Kagoshima 2025",
+          "location": "Kagoshima University, Japan",
+          "date": "5 December 2025",
+          "type": "poster"
+        },
+        {
+          "authors": "和田康司, 行木孝夫",
+          "title": "大域結合写像に対するアトラクター痕跡の安定性",
+          "conference": "日本応用数理学会2025年度年会",
+          "location": "東京理科大学",
+          "date": "2025年9月15日",
+          "type": "oral"
+        },
+        {
+          "authors": "Wada, K., Namiki, T.",
+          "title": "Complexity of attractor-ruin for globally coupled map by using optimal transport distance",
+          "conference": "The 3rd Taiwan-Japan Joint Workshop on Applied Mathematics",
+          "location": "Hokkaido University, Japan",
+          "date": "1 May 2025",
+          "type": "poster"
+        },
+        {
+          "authors": "和田康司",
+          "title": "最適輸送距離による大域結合写像のクラスター解析",
+          "conference": "第21回数学総合若手研究集会～数学の交叉点～",
+          "location": "北海道大学",
+          "date": "2025年3月3日",
+          "type": "oral"
+        },
+        {
+          "authors": "Wada, K., Namiki, T.",
+          "title": "Cluster analysis of Globally Coupled Maps using optimal transport distance",
+          "conference": "Winter Annual Conference on Dynamical Systems 2024",
+          "location": "Kyushu University, Japan",
+          "date": "12 January 2025",
+          "type": "oral"
+        },
+        {
+          "authors": "Wada, K., Namiki, T.",
+          "title": "Cluster Analysis of Globally Coupled Maps using Optimal Transport Distance",
+          "conference": "Dynamics Days Sapporo 2024",
+          "location": "Hokkaido University, Japan",
+          "date": "10 December 2024",
+          "type": "poster"
+        },
+        {
+          "authors": "和田康司, 行木孝夫",
+          "title": "最適輸送理論を応用したカオス的遍歴のクラスター解析",
+          "conference": "日本応用数理学会2024年度年会",
+          "location": "京都大学",
+          "date": "2024年9月15日",
+          "type": "poster"
+        }
+      ]
     },
     {
       "id": "modal2",
@@ -15,7 +121,63 @@
       "date": "2024.11 -",
       "summary": "偏微分方程式である非線形波動方程式において現れる解の爆発と呼ばれる現象について，方程式を離散化した離散波動方程式においてもパラレルに議論できるか研究している．",
       "image": "./images/78251.jpg",
-      "details": "工事中\n\n"
+      "details": "工事中\n\n",
+      "publications": [
+        {
+          "authors": "Koji Wada, Kyouhei Wakasa",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "journal": "arXiv preprint",
+          "volume": "",
+          "number": "",
+          "pages": "",
+          "year": "2025",
+          "doi": "10.48550/arXiv.2510.00439"
+        }
+      ],
+      "misc": [
+        {
+          "authors": "和田康司, 若狭恭平",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "source": "2025年度日本数学会秋季総合分科会応用数学分科会アブストラクト集",
+          "identifier": "",
+          "year": "2025",
+          "doi": ""
+        }
+      ],
+      "presentations": [
+        {
+          "authors": "和田康司, 若狭恭平",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "conference": "日本数学会2025年度秋季総合分科会",
+          "location": "名古屋大学",
+          "date": "2025年9月19日",
+          "type": "oral"
+        },
+        {
+          "authors": "Wada, K., Wakasa, K.",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "conference": "Japan–Spain Forum for PDEs and their applications Asymptotic analysis and blow-up phenomena",
+          "location": "Hokkaido University, Japan",
+          "date": "27 August 2025",
+          "type": "poster"
+        },
+        {
+          "authors": "若狭恭平, 和田康司",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "conference": "第82回数理工学センター（MCME）セミナー",
+          "location": "武蔵野大学",
+          "date": "2025年7月25日",
+          "type": "oral"
+        },
+        {
+          "authors": "Wada, K., Wakasa, K.",
+          "title": "Blow-up of solutions for discrete semilinear wave equation with the scale-invariant damping",
+          "conference": "The 26th Northeastern Symposium on Mathematical Analysis",
+          "location": "Tohoku University, Japan",
+          "date": "17 February 2025",
+          "type": "poster"
+        }
+      ]
     }
   ]
 }

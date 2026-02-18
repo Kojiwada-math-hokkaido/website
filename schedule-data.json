@@ -1,6 +1,15 @@
 {
   "2026": [
     {
+      "month": "9月",
+      "day": "15-17",
+      "title": "日本応用数理学会2026年度年会",
+      "location": "📍 福岡国際会議場",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/"
+    },
+    {
       "month": "3月",
       "day": "9-11",
       "title": "日本応用数理学会第22回研究部会連合発表会",
