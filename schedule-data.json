@@ -10,11 +10,38 @@
 			"url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/"
     },
     {
+      "month": "9月",
+      "day": "10-13",
+      "title": "2026年度力学系勉強会「セル・オートマトン」",
+      "location": "📍 北海道大学，ACU札幌",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/dynworkshop2026/home"
+    },
+    {
+      "month": "8月",
+      "day": "5-7",
+      "title": "第51回偏微分方程式札幌シンポジウム",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": ""
+    },
+    {
+      "month": "6月",
+      "day": "8-12",
+      "title": "RIMS共同研究「力学系の理論と応用」",
+      "location": "📍 京都大学数理解析研究所",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/2026rims/home"
+    },
+    {
       "month": "3月",
       "day": "9-11",
       "title": "日本応用数理学会第22回研究部会連合発表会",
       "location": "📍 東京大学",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "attendance",
 			"url": "https://jsiam.org/jsiam_archive/past_presentations/union2026"
     },
@@ -23,7 +50,7 @@
       "day": "4-8",
       "title": "第22回数学総合若手研究集会～数学の交叉点～",
       "location": "📍 北海道大学",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "oral",
 			"url": "https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2026/ja/index.html"
     },
