@@ -92,21 +92,21 @@
     },
     {
       "month": "2月",
-      "day": "2",
-      "title": "数理科学セミナー：Dynamically defined Cantor setの差集合について(三波 篤郎)、On the intersection of Cantor sets and products of random matrices(アリババイ 仁真)",
-      "location": "📍 北海道大学",
-      "status": "past",
-			"presentationType": "attendance",
-			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14186"
-    },
-    {
-      "month": "2月",
       "day": "3",
       "title": "Mini-workshop on dynamical systems",
       "location": "📍 北海道大学",
       "status": "past",
 			"presentationType": "attendance",
 			"url": ""
+    },
+    {
+      "month": "2月",
+      "day": "2",
+      "title": "数理科学セミナー：Dynamically defined Cantor setの差集合について(三波 篤郎)、On the intersection of Cantor sets and products of random matrices(アリババイ 仁真)",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www2.sci.hokudai.ac.jp/dept/math/event/14186"
     },
     {
       "month": "1月",
