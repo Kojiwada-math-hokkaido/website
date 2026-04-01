@@ -1,0 +1,109 @@
+{
+  "intro": "教育・研究活動など",
+  "teaching": [
+    {
+      "position": "ティーチングアシスタント",
+      "course": "コンピュータ",
+      "institution": "北海道大学 理学部数学科",
+      "period": "2023.10 - 2026.1（後期）",
+      "description": "課題採点，質問対応"
+    },
+    {
+      "position": "ティーチングアシスタント",
+      "course": "データの科学",
+      "institution": "天使大学",
+      "period": "2023.9 - 2025.12（後期）",
+      "description": "講義内質問対応"
+    },
+    {
+      "position": "ティーチングアシスタント",
+      "course": "情報処理演習",
+      "institution": "天使大学",
+      "period": "2023.4 - 2025.7（前期）",
+      "description": "講義内質問対応"
+    },
+    {
+      "position": "ティーチングアシスタント",
+      "course": "全学教育科目 情報学 I",
+      "institution": "北海道大学",
+      "period": "2024.4 - 2024.7",
+      "description": "質問対応"
+    }
+  ],
+  "research_assistant": [
+    {
+      "position": "リサーチアシスタント",
+      "project": "準安定カオスの統計数理と現象制御への新視点",
+      "institution": "北海道大学大学院 理学研究院 数学部門",
+      "period": "2026.4 - 現在",
+      "description": "研究補助業務"
+    },
+    {
+      "position": "リサーチアシスタント",
+      "project": "多元的脳コネクト―ム解析に基づくてんかん病態の解明と新規ネットワークモデュレーション法の開発",
+      "institution": "北海道大学大学院 理学研究院 数学部門",
+      "period": "2025.10 - 2026.3",
+      "description": "研究補助業務"
+    },
+    {
+      "position": "リサーチアシスタント",
+      "project": "数理・データサイエンス・AIに関する研究開発補助業",
+      "institution": "北海道大学 数理・データサイエンス教育研究センター",
+      "period": "2024.10 - 2026.3",
+      "description": "WebWorKシステムの開発・保守"
+    },
+    {
+      "position": "リサーチアシスタント",
+      "project": "富士通「心と行動のループをゆさぶるエナクティブな行動変容技術の研究」",
+      "institution": "北海道大学 人間知・脳・AI研究教育センター",
+      "period": "2025.6 - 2026.3",
+      "description": "研究用システム開発補助，実験時スタッフ"
+    },
+    {
+      "position": "リサーチアシスタント",
+      "project": "富士通「行動への習慣化へ導く認知フィーリング等の認知科学・心理学知見とIT融合による働きかけ制御に関する研究」",
+      "institution": "北海道大学 人間知・脳・AI研究教育センター",
+      "period": "2024.8 - 2025.5",
+      "description": "研究用システム開発補助，実験時スタッフ"
+    },
+    {
+      "position": "リサーチアシスタント",
+      "project": "てんかん脳波の非線形時系列解析におけるモデル化と発作予測",
+      "institution": "北海道大学大学院 理学研究院 数学部門",
+      "period": "2023.7 - 2024.1",
+      "description": "研究補助業務"
+    }
+  ],
+  "academic_service": [
+    {
+      "role": "世話人",
+      "organization": "第22回数学総合若手研究集会～数学の交叉点～ ",
+      "period": "2025.1 - 2026.3",
+      "description": "運営全般"
+    },
+    {
+      "role": "学生スタッフ",
+      "organization": "Models of Consciousness 2025",
+      "period": "2025.10",
+      "description": "会場設営など"
+    },
+    {
+      "role": "学生スタッフ",
+      "organization": "FPSAC 2025 - The 37th International Conference on Formal Power Series and Algebraic Combinatorics",
+      "period": "2025.7",
+      "description": "会場設営，受付"
+    },
+    {
+      "role": "世話人",
+      "organization": "第21回数学総合若手研究集会～数学の交叉点～ ",
+      "period": "2024.1 - 2025.3",
+      "description": "運営全般"
+    },
+    {
+      "role": "学生ボランティアスタッフ",
+      "organization": "国際人工生命学会 ALIFE",
+      "period": "2023.7",
+      "description": "会場設営，受付など"
+    }
+  ]
+}
