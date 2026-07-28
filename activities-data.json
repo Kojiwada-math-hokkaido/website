@@ -76,6 +76,12 @@
   ],
   "academic_service": [
     {
+      "role": "世話人（代表）",
+      "organization": "第23回数学総合若手研究集会～数学の交叉点～ ",
+      "period": "2026.4 - 現在",
+      "description": "運営全般"
+    },
+    {
       "role": "世話人",
       "organization": "第22回数学総合若手研究集会～数学の交叉点～ ",
       "period": "2025.1 - 2026.3",
@@ -104,6 +110,15 @@
       "organization": "国際人工生命学会 ALIFE",
       "period": "2023.7",
       "description": "会場設営，受付など"
+    }
+  ],
+  "awards": [
+    {
+      "position": " ",
+      "course": "令和8年度理学院優秀研究奨励賞",
+      "institution": "北海道大学大学院 理学院",
+      "period": "2026.4.1",
+      "description": ""
     }
   ]
 }

@@ -28,11 +28,47 @@
 			"url": ""
     },
     {
+      "month": "7月",
+      "day": "27",
+      "title": "第27回 京都大学 情報学シンポジウム AI vs 脳 ー数理・カオスの視点で考えるー",
+      "location": "📍 京都大学（オンライン）",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www.i.kyoto-u.ac.jp/Symposium/2026/"
+    },
+    {
+      "month": "7月",
+      "day": "14",
+      "title": "偏微分方程式セミナー: The rigorous derivation of the wave kinetic equations for nonlinear dispersive equations, Kiyeon Lee 氏 (KAIST / University of Michigan) / TRICHOTOMY FOR MODIFIED SCATTERING ACROSS THE YUKAWA–COULOMB TRANSITION, Yonggeun Cho 氏 (Jeonbuk National University)",
+      "location": "📍 北海道大学",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://www.math.sci.hokudai.ac.jp/~kosuke.kita/pde_seminar"
+    },
+    {
+      "month": "7月",
+      "day": "14",
+      "title": "第173, 174回 HMMCセミナー",
+      "location": "📍 北海道大学（オンライン）",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://mmc01.es.hokudai.ac.jp/els/seminar"
+    },
+    {
+      "month": "7月",
+      "day": "10",
+      "title": "第29回NCNP脳病態数理・データ科学セミナー",
+      "location": "📍 NCNP教育研修棟（オンライン）",
+      "status": "past",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/ncnp-bpmdseminar/%E3%83%9B%E3%83%BC%E3%83%A0"
+    },
+    {
       "month": "6月",
       "day": "8-12",
       "title": "RIMS共同研究「力学系の理論と応用」",
       "location": "📍 京都大学数理解析研究所",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "attendance",
 			"url": "https://sites.google.com/view/2026rims/home"
     },
