@@ -1,31 +1,67 @@
 {
   "2026": [
     {
-      "month": "9月",
-      "day": "15-17",
-      "title": "日本応用数理学会2026年度年会",
-      "location": "📍 福岡国際会議場",
+      "month": "12月",
+      "day": "17-19",
+      "title": "2026年度応用数学合同研究集会",
+      "location": "📍 龍谷大学",
       "status": "upcoming",
 			"presentationType": "attendance",
-			"url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/"
+			"url": "https://www.mathsoc.jp/section/appliedmath/CAM/2026/"
+    },
+    {
+      "month": "11月",
+      "day": "20-23",
+      "title": "2026年度エルゴード理論研究集会",
+      "location": "📍 筑波大学",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/ergodictheoryconference26/%E3%83%9B%E3%83%BC%E3%83%A0"
+    },
+    {
+      "month": "11月",
+      "day": "13-14",
+      "title": "第16回室蘭非線形解析研究会",
+      "location": "📍 室蘭工業大学",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://sites.google.com/view/muroran-it-colloquium/other/mit_sympo"
+    },
+    {
+      "month": "10月",
+      "day": "2",
+      "title": "偏微分方程式セミナー: 離散半線形波動方程式の解に対する\"ライフスパン\"評価について",
+      "location": "📍 北海道大学（招待あり）",
+      "status": "upcoming",
+			"presentationType": "oral",
+			"url": "https://www.math.sci.hokudai.ac.jp/~kosuke.kita/pde_seminar"
+    },
+    {
+      "month": "9月",
+      "day": "26-27",
+      "title": "北海道大学 創基150周年記念事業 サイエンスフェスタ ～科学が描く未来社会～",
+      "location": "📍 札幌文化芸術劇場 hitaru",
+      "status": "upcoming",
+			"presentationType": "poster",
+			"url": "https://150th.hokudai.ac.jp/project/ja-ceremony-events"
     },
     {
       "month": "9月",
       "day": "10-13",
       "title": "2026年度力学系勉強会「セル・オートマトン」",
       "location": "📍 北海道大学，ACU札幌",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "attendance",
 			"url": "https://sites.google.com/view/dynworkshop2026/home"
     },
     {
       "month": "8月",
-      "day": "5-7",
-      "title": "第51回偏微分方程式札幌シンポジウム",
+      "day": "3-7",
+      "title": "2026年度 CHAINサマースクール：「身体の心理学と心の計算論：内受容感覚と精神病理の交差点」",
       "location": "📍 北海道大学",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "attendance",
-			"url": ""
+			"url": "https://www.chain.hokudai.ac.jp/events/5398/"
     },
     {
       "month": "7月",
