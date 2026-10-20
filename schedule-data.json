@@ -2,6 +2,24 @@
   "2026": [
     {
       "month": "2027年3月",
+      "day": "28-31",
+      "title": "日本数学会 2027年度年会",
+      "location": "📍 静岡大学 浜松キャンパス",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://www.mathsoc.jp/activity/meeting/shizuoka27mar/index.html"
+    },
+    {
+      "month": "2027年3月",
+      "day": "6-8",
+      "title": "日本応用数理学会 第23回 研究部会連合発表会",
+      "location": "📍 城西大学・東京紀尾井町キャンパス",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://jsiam.org/jsiam_archive/past_presentations/union2027"
+    },
+    {
+      "month": "2027年3月",
       "day": "28-4",
       "title": "第23回 数学総合若手研究集会 〜数学の交叉点〜",
       "location": "📍 北海道大学",
@@ -10,13 +28,49 @@
 			"url": "https://www.math.sci.hokudai.ac.jp/~wakate/mcyr/2027/ja/index.html"
     },
     {
+      "month": "2027年1月",
+      "day": "19",
+      "title": "応用数学セミナー / 京都力学系セミナー",
+      "location": "📍 京都大学",
+      "status": "upcoming",
+			"presentationType": "oral",
+			"url": ""
+    },
+    {
+      "month": "2027年1月",
+      "day": "8-11",
+      "title": "2026年度冬の力学系研究集会",
+      "location": "📍 日本大学軽井沢研修所",
+      "status": "upcoming",
+			"presentationType": "oral",
+			"url": ""
+    },
+    {
+      "month": "2027年1月",
+      "day": "8",
+      "title": "2026年度日本数学会北海道支部講演会",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "oral",
+			"url": "https://sites.google.com/view/hokkaido-mathsoc-meeting2026/"
+    },
+    {
       "month": "12月",
       "day": "17-19",
       "title": "2026年度応用数学合同研究集会",
       "location": "📍 龍谷大学",
       "status": "upcoming",
-			"presentationType": "attendance",
+			"presentationType": "oral",
 			"url": "https://www.mathsoc.jp/section/appliedmath/CAM/2026/"
+    },
+    {
+      "month": "11月",
+      "day": "27-28",
+      "title": "The 4th Taiwan-Japan International Workshop on Applied Mathematics",
+      "location": "📍 National Yang-Ming Chiao-Tung University (NYCU)",
+      "status": "upcoming",
+			"presentationType": "poster",
+			"url": "https://sites.google.com/nycu.edu.tw/nycu-msc-workshop2026/home"
     },
     {
       "month": "11月",
@@ -24,7 +78,7 @@
       "title": "2026年度エルゴード理論研究集会",
       "location": "📍 筑波大学",
       "status": "upcoming",
-			"presentationType": "attendance",
+			"presentationType": "oral",
 			"url": "https://sites.google.com/view/ergodictheoryconference26/%E3%83%9B%E3%83%BC%E3%83%A0"
     },
     {
@@ -38,10 +92,19 @@
     },
     {
       "month": "10月",
+      "day": "30",
+      "title": "第64回CHAINセミナー：飯塚 博幸「重ね合わせの原理による心の構成と理解」",
+      "location": "📍 北海道大学",
+      "status": "upcoming",
+			"presentationType": "attendance",
+			"url": "https://www.chain.hokudai.ac.jp/events/5673/"
+    },
+    {
+      "month": "10月",
       "day": "2",
       "title": "偏微分方程式セミナー: 離散半線形波動方程式の解に対する\"ライフスパン\"評価について",
       "location": "📍 北海道大学（招待あり）",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "oral",
 			"url": "https://www.math.sci.hokudai.ac.jp/~kosuke.kita/pde_seminar"
     },
@@ -50,7 +113,7 @@
       "day": "26-27",
       "title": "北海道大学 創基150周年記念事業 サイエンスフェスタ ～科学が描く未来社会～",
       "location": "📍 札幌文化芸術劇場 hitaru",
-      "status": "upcoming",
+      "status": "past",
 			"presentationType": "poster",
 			"url": "https://150th.hokudai.ac.jp/project/ja-ceremony-events"
     },
